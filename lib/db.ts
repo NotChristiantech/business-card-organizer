@@ -20,6 +20,7 @@ db.exec(`
     address TEXT NOT NULL DEFAULT '',
     notes TEXT NOT NULL DEFAULT '',
     image_path TEXT NOT NULL DEFAULT '',
+    source TEXT NOT NULL DEFAULT 'manual',
     ghl_contact_id TEXT,
     ghl_synced_at TEXT,
     created_at TEXT NOT NULL,
@@ -29,6 +30,14 @@ db.exec(`
   CREATE INDEX IF NOT EXISTS idx_contacts_name ON contacts(name);
   CREATE INDEX IF NOT EXISTS idx_contacts_company ON contacts(company);
 `);
+
+// Migration for databases created before the `source` column existed.
+const hasSourceColumn = (db.pragma('table_info(contacts)') as { name: string }[]).some(
+  (col) => col.name === 'source'
+);
+if (!hasSourceColumn) {
+  db.exec(`ALTER TABLE contacts ADD COLUMN source TEXT NOT NULL DEFAULT 'manual'`);
+}
 
 export interface Contact {
   id: string;
@@ -41,6 +50,7 @@ export interface Contact {
   address: string;
   notes: string;
   image_path: string;
+  source: string;
   ghl_contact_id: string | null;
   ghl_synced_at: string | null;
   created_at: string;

@@ -54,11 +54,18 @@ export default function ContactsPage() {
                   {[c.title, c.company].filter(Boolean).join(' · ')}
                 </p>
               </div>
-              {c.ghl_contact_id && (
-                <span className="rounded-full bg-emerald-100 px-2 py-1 text-xs font-medium text-emerald-700">
-                  Synced to GHL
-                </span>
-              )}
+              <div className="flex flex-col items-end gap-1">
+                {c.source !== 'manual' && !c.ghl_contact_id && (
+                  <span className="rounded-full bg-amber-100 px-2 py-1 text-xs font-medium text-amber-700">
+                    Needs review ({c.source})
+                  </span>
+                )}
+                {c.ghl_contact_id && (
+                  <span className="rounded-full bg-emerald-100 px-2 py-1 text-xs font-medium text-emerald-700">
+                    Synced to GHL
+                  </span>
+                )}
+              </div>
             </Link>
           </li>
         ))}

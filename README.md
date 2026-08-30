@@ -92,6 +92,25 @@ etc.) — not a stateless serverless platform like Vercel, where the filesystem
 resets between requests. If you outgrow this, the natural next step is Postgres
 + object storage (S3/R2) for images, without changing the app's shape.
 
+## Ingesting cards from a Google Drive folder (via Make.com)
+
+If you'd rather drop a photo into a Google Drive folder than use your phone, the
+app exposes `POST /api/cards/from-drive` for exactly that. It skips the review
+step (there's no human in the loop), so cards from this route are saved with
+`source: "google-drive"` and are **not** auto-synced to GHL — they show up in
+the Contacts list tagged "Needs review" so you can check the extraction and
+sync manually, same as any other contact.
+
+Set `DRIVE_INGEST_SECRET` in your deployment's environment variables (any
+random string) — the endpoint 401s without the matching `x-ingest-secret`
+header, since it would otherwise be a public unauthenticated write endpoint.
+
+Build the automation in Make.com:
+1. **Trigger:** Google Drive → *Watch Files in a Folder* (the folder you'll drop cards into).
+2. **Module:** Google Drive → *Download a File* (get the file content).
+3. **Module:** HTTP → *Make a Request* — `POST` to `https://<your-app>/api/cards/from-drive` with header `x-ingest-secret: <your secret>` and a JSON body of `{ "image": "<base64 file content>", "mediaType": "<file mime type>" }`.
+4. **Module:** Google Drive → *Move a File* — move the processed file into a "Processed" subfolder so it isn't picked up again on the next poll.
+
 ## Setting up the GoHighLevel side
 
 This app only creates/updates the contact and tags it `business-card-scan`.

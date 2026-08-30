@@ -3,13 +3,14 @@ import db, { Contact } from './db';
 
 export type ContactInput = Omit<
   Contact,
-  'id' | 'ghl_contact_id' | 'ghl_synced_at' | 'created_at' | 'updated_at'
->;
+  'id' | 'ghl_contact_id' | 'ghl_synced_at' | 'created_at' | 'updated_at' | 'source'
+> & { source?: string };
 
 export function createContact(input: ContactInput): Contact {
   const now = new Date().toISOString();
   const contact: Contact = {
     id: uuid(),
+    source: 'manual',
     ...input,
     ghl_contact_id: null,
     ghl_synced_at: null,
@@ -19,8 +20,8 @@ export function createContact(input: ContactInput): Contact {
 
   db.prepare(
     `INSERT INTO contacts
-      (id, name, title, company, email, phone, website, address, notes, image_path, created_at, updated_at)
-     VALUES (@id, @name, @title, @company, @email, @phone, @website, @address, @notes, @image_path, @created_at, @updated_at)`
+      (id, name, title, company, email, phone, website, address, notes, image_path, source, created_at, updated_at)
+     VALUES (@id, @name, @title, @company, @email, @phone, @website, @address, @notes, @image_path, @source, @created_at, @updated_at)`
   ).run(contact);
 
   return contact;
