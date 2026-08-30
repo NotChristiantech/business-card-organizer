@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+data/*.db
+data/*.db-journal
+data/*.db-shm
+data/*.db-wal
+public/uploads/*
+!public/uploads/.gitkeep
+npm-debug.log*
+.DS_Store
+*.tsbuildinfo
