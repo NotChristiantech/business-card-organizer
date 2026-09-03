@@ -1,5 +1,11 @@
 # Business Card Organizer
 
+> **Also in this repo:** [`grants/`](grants/README.md) — the ACBN Grant Desk, a
+> separate working system for grant writing (past applications, live pipeline,
+> reusable answer library, opportunity triage). It shares this repository for
+> convenience only; the two share no code and can be split apart at any time.
+
+
 Take a photo of a business card, get the contact details extracted automatically,
 search your saved contacts, share any of them as a vCard, and push a contact into
 GoHighLevel so your existing workflows (keep-in-touch emails, stale-lead reminders)
