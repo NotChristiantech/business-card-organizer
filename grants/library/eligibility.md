@@ -31,9 +31,11 @@ The Articles of Amendment state the corporation operates as a
   ACBN's wins are concentrated
 - **Loans are unaffected** — lenders do not require donee status
 
-**This may already have cost a grant.** Vancity approved ACBN's loan and declined
-its research grant in the same period. Foundation + grant + non-charity is a
-common bar; see `win-loss-analysis.md`.
+**No confirmed instance yet.** This was suspected in the Vancity case — loan
+approved, grant declined — but Vancity confirmed in writing that the decline was
+about scope and an exhausted allocation, not eligibility. So the constraint
+below is real and structural, but it has not yet been shown to have cost ACBN a
+specific grant. Do not assume it explains a decline; ask.
 
 **Workarounds, in order of preference:**
 

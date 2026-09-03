@@ -67,6 +67,11 @@ of African Descent, so mandate fit was never the issue. It still lost. That
 points at outcome evidence rather than fit — the gap documented in
 `../library/reach-and-impact.md`.
 
+**ESDC does not give feedback.** A debrief was requested on the CIPAD decline
+and no response came. Read the pattern from outcomes, not debriefs, and don't
+spend more time chasing feedback here — where it genuinely matters, the route is
+a program officer relationship or an Access to Information request.
+
 Full analysis: `../library/win-loss-analysis.md`.
 
 ## Lessons

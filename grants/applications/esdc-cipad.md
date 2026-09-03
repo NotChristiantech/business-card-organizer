@@ -30,3 +30,11 @@ federal program gets. If ACBN loses *this*, the problem is unlikely to be fit.
 
 Getting the reason here would be worth more than for any other decline, because
 it isolates execution from fit: the fit was never in question.
+
+**Requested — and ESDC did not respond** (confirmed by Ryan, 2026-09-03).
+
+That is itself worth recording. It means the ESDC pattern in
+`../library/win-loss-analysis.md` has to be read from outcomes rather than
+debriefs, and that chasing ESDC for feedback is not a good use of time. Where a
+federal decline matters, the route is a program officer relationship or an
+Access to Information request, not a polite email.

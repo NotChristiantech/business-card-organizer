@@ -7,7 +7,7 @@ typical_cycle: rolling / per-call
 watch:
   from_domains: [vancity.com, vancitycommunityfoundation.ca]
   subject_terms: ["Vancity", "Community Housing"]
-needs_verification: [decline_reason_research_grant, loan_terms]
+needs_verification: [loan_terms, next_capacity_building_allocation]
 ---
 
 # Vancity Community Foundation
@@ -37,31 +37,65 @@ An earlier note flagged Vancity's BC focus as a likely eligibility bar for an
 Ontario applicant. **Withdrawn.** They lent to ACBN. Being Ontario-based is not
 disqualifying, and that assumption should not be repeated.
 
-## Most likely explanation: charitable status
+## The real reason — confirmed in writing
 
-ACBN is explicitly a **non-charitable** not-for-profit (Articles of Amendment,
-`../documents/`). Foundations routinely restrict **grants** to registered
-charities and qualified donees, while facing no such restriction on **loans**.
+Neither result was about ACBN's credibility. Jenn McGinn, Manager of the
+Affordable Community Housing Program, wrote:
 
-That fits the observed split exactly, and it means the decline may have had
-nothing to do with the application's quality.
+> "While the project aligns with important capacity-building objectives, it falls
+> outside the scope of the projects we are currently funding. At this time, our
+> grant funding is focused on **pre-development activities**, and our
+> **capacity-building grant allocation for this year has already been fully
+> committed**."
 
-## The hypothesis this replaces
+So: the loan was a **pre-development loan for Springbank**, squarely inside what
+they fund. The grant was capacity-building, from an allocation already spent.
+Budget and scope — not eligibility, not quality.
 
-An earlier note here read the split as ACBN presenting strongly as a housing
-*operator* and weakly as a *research institution*. That is still possible, but
-it is the weaker explanation — and it is worth noting how misleading it would
-have been. It would have sent ACBN off building research credibility to fix a
-problem that is actually a legal-structure bar.
+### Two wrong theories, killed by one email
 
-It is also probably wrong on the facts: ACBN has real research standing,
-including a labour market assessment conducted with the Ontario Public Service
-(`../library/research/acbn-own-research.md`).
+This repo recorded both of these, and both would have misdirected real effort:
 
-## Ask them
+1. *"ACBN reads as an operator, not a researcher."* Vancity never assessed
+   research credibility at all.
+2. *"Foundations decline ACBN because it is not a qualified donee."* Charitable
+   status is a real constraint elsewhere (`../library/eligibility.md`) but was
+   irrelevant here.
 
-The loan relationship makes this an easy question and they have every reason to
-answer: **was the research grant declined on eligibility grounds, or on merit?**
+Keep the lesson, not just the correction: **ask the funder before theorising.**
+Two data points supported two mutually exclusive stories, and neither survived
+contact with the actual reason.
 
-The answer changes strategy across every foundation in the pipeline, not just
-this one. See `../library/eligibility.md`.
+## How their money is organised
+
+| Instrument | What it funds | ACBN's result |
+|---|---|---|
+| Pre-development **loan** | Project pre-development (Springbank) | **Approved, disbursed** |
+| Pre-development **grant** | Pre-development activities | not yet tried |
+| **Capacity-building grant** | Sector capacity; limited annual allocation | Declined — allocation spent |
+
+The gap worth probing: ACBN has only ever taken the loan. Their grant money is
+pointed at **pre-development activities**, and ACBN has live pre-development work
+at Springbank. That is an open door nobody has walked through.
+
+## They offered something
+
+> "Once the playbook has been developed, we would be happy to connect you with
+> Black-led organizations in British Columbia that may find this resource
+> valuable."
+
+A distribution offer into a province where ACBN has no presence, and a reason to
+come back with a finished product rather than a request.
+
+## Next actions
+
+- [ ] Ask Jenn when the next capacity-building allocation opens; resubmit then
+- [ ] Explore a **pre-development grant** for Springbank
+- [ ] Take up the BC distribution offer once the playbook exists
+- [ ] Notify them of the legal name change — their letter still says
+      "Afro Caribbean Business Network Foundation of Canada"
+
+## Contact
+
+Jenn McGinn (she/they), Manager, Affordable Community Housing Program
+`jenn_mcginn@vancity.com` · 604.340.9722

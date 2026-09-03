@@ -2,7 +2,7 @@
 id: vancity-community-housing-loan
 applicant: acbn
 funder: vancity-community-foundation
-program: Community Housing Loan
+program: Pre-Development Loan — Springbank Affordable Housing Development
 stage: awarded
 outcome: awarded
 amount_requested: null
@@ -20,7 +20,12 @@ needs_verification: [amount_awarded, terms, repayment_schedule]
 
 ## Outcome — SUCCESSFUL, funds received
 
-Confirmed by Ryan, 2026-09-03.
+Confirmed by Ryan, 2026-09-03. Vancity's own letter describes it as a
+**pre-development loan for the Springbank Affordable Housing Development** — a
+specific instrument tied to a specific project, not general-purpose debt.
+
+That matters when describing it to other funders: it is project finance for 175
+Springbank, alongside the CMHC money already flowing there.
 
 ## This is debt, not a grant
 

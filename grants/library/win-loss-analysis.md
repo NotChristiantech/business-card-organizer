@@ -105,26 +105,37 @@ fixable weakness, or ACBN partners with an organization whose core work is
 community safety. Ryan's time is the binding constraint, and this envelope has
 consumed two applications for nothing.
 
-## Pattern 4 — Vancity: the likely reason is charitable status
+## Pattern 4 — Vancity: neither theory was right, and that is the lesson
 
-Vancity approved the **loan** and declined the **research grant**, same funder,
-same period.
+Vancity approved the **loan** and declined the **grant**, same funder, same
+period. This file previously advanced two explanations in turn:
 
-An earlier hypothesis in `funders/vancity-community-foundation.md` was that ACBN
-reads as a housing operator rather than a research institution. **There is now a
-better explanation.**
+1. ACBN reads as a housing *operator*, not a *research institution*
+2. ACBN is not a qualified donee, and foundations restrict grants to donees
 
-The Articles of Amendment establish that ACBN is explicitly a **non-charitable**
-not-for-profit. Foundations routinely restrict *grants* to registered charities
-and qualified donees, while facing no such restriction on *loans*.
+**Both were wrong.** Vancity put the reason in writing: the grant proposal
+(*Building the Blueprint*, a capacity-building playbook) fell outside their
+current grant scope, which is focused on **pre-development activities**, and
+their **capacity-building allocation for the year was already fully committed**.
+The loan was a pre-development loan for Springbank — squarely inside scope.
 
-If that is the reason, the decline had nothing to do with the application's
-quality, and the operator/researcher reading is a red herring that would have
-sent ACBN off improving the wrong thing.
+Budget and scope. Not eligibility, not merit, not structure.
 
-**Test it:** ask Vancity directly. The loan relationship makes it an easy
-question, and the answer changes strategy across every foundation in the
-pipeline. See `eligibility.md`.
+### Why this belongs in a win/loss file
+
+It is the clearest evidence here for how to *use* this analysis. Two plausible,
+mutually exclusive theories were constructed from the same two data points, each
+implied a different and costly remedy — build research credibility, or pursue
+charitable registration — and one email dissolved both.
+
+**Inference from outcomes is for generating questions, not answers.** Every
+pattern in this file is a hypothesis until a funder confirms it. Where a funder
+will tell you (foundations usually will; ESDC did not answer on CIPAD), ask
+before acting.
+
+It also reclassifies the decline: an allocation that was spent is a **reapply
+next cycle**, which makes this the most straightforwardly recoverable loss in the
+archive.
 
 ## What to do
 
