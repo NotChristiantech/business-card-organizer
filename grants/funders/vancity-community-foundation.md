@@ -37,16 +37,31 @@ An earlier note flagged Vancity's BC focus as a likely eligibility bar for an
 Ontario applicant. **Withdrawn.** They lent to ACBN. Being Ontario-based is not
 disqualifying, and that assumption should not be repeated.
 
-## Working hypothesis
+## Most likely explanation: charitable status
 
-ACBN reads strongly as a housing **operator** — 175 Springbank is in
-construction with CMHC funds flowing — and weakly as a **research institution**,
-with no published research capability on record.
+ACBN is explicitly a **non-charitable** not-for-profit (Articles of Amendment,
+`../documents/`). Foundations routinely restrict **grants** to registered
+charities and qualified donees, while facing no such restriction on **loans**.
 
-If that holds, the rule for this funder is: pursue capital and delivery alone;
-bring an academic co-applicant to anything research-shaped. Sheridan College is
-already a research partner (`../library/partners.md`).
+That fits the observed split exactly, and it means the decline may have had
+nothing to do with the application's quality.
 
-**This is inference from two data points.** The loan relationship makes asking
-for the actual decline reason easy, and they have every reason to answer. Ask
-before acting on it.
+## The hypothesis this replaces
+
+An earlier note here read the split as ACBN presenting strongly as a housing
+*operator* and weakly as a *research institution*. That is still possible, but
+it is the weaker explanation — and it is worth noting how misleading it would
+have been. It would have sent ACBN off building research credibility to fix a
+problem that is actually a legal-structure bar.
+
+It is also probably wrong on the facts: ACBN has real research standing,
+including a labour market assessment conducted with the Ontario Public Service
+(`../library/research/acbn-own-research.md`).
+
+## Ask them
+
+The loan relationship makes this an easy question and they have every reason to
+answer: **was the research grant declined on eligibility grounds, or on merit?**
+
+The answer changes strategy across every foundation in the pipeline, not just
+this one. See `../library/eligibility.md`.

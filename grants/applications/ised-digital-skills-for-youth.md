@@ -3,7 +3,7 @@ id: ised-digital-skills-for-youth
 applicant: acbn
 funder: ised
 program: Digital Skills for Youth (DS4Y)
-stage: prospect
+stage: under_review
 amount_requested: null
 deadline: null
 owner: ryan
@@ -11,21 +11,25 @@ watch:
   from_domains: [ised-isde.gc.ca, canada.ca]
   subject_terms: ["Digital Skills for Youth", "DS4Y"]
 tags: [youth, digital, employment]
-needs_verification: [delivery_model, deadline, stage]
+needs_verification: [submitted, amount_requested, decision_expected]
 ---
 
 # ISED — Digital Skills for Youth
 
 ## Status
 
-In the active tracker with no detail.
+Submitted, awaiting decision (confirmed by Ryan, 2026-09-03).
 
-## Note before drafting
+An earlier note here worried that DS4Y runs through intermediary delivery
+partners rather than direct application, and that approaching ISED directly
+would waste a drafting cycle. Moot — the application is in. Worth recording
+which route it took, since that determines how the next one is approached.
 
-DS4Y has historically been delivered through intermediary partners rather than
-by direct application to ISED. Confirm the current model — if it runs through
-delivery partners, the right move is to approach the partner, not to write an
-application to ISED. Getting this wrong wastes a full drafting cycle.
+## Next actions
+
+- [ ] Record the submission date, route (direct vs. delivery partner), and
+      amount requested
+- [ ] Confirm the expected decision window
 
 ## Fit
 

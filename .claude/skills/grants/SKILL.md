@@ -47,32 +47,40 @@ what changed in the library, not a folder-by-folder narration.
 
 ## Drafting an application
 
-1. Read the funder dossier (`grants/funders/<id>.md`) and the applicant profile
-   (`grants/orgs/<id>.md`). Eligibility first — entity type, geography,
-   charitable status, deadline. Four questions, and each one can void the work.
-   Check `orgs/<id>.md` for the legal applicant name; it is not always the
-   operating name.
-2. Read the funder's actual guidelines. Extract the questions verbatim and the
+1. **Check `library/eligibility.md` first.** ACBN is a *non-charitable*
+   not-for-profit — it is not a qualified donee and cannot receive grants from
+   funders that require one, which rules out much of the foundation market.
+   Confirm entity, geography, charitable requirement and deadline before
+   reading the guidelines properly.
+2. Read the funder dossier (`grants/funders/<id>.md`) and the applicant profile
+   (`grants/orgs/<id>.md`). Use the legal applicant name from `orgs/<id>.md`,
+   which is not always the operating name.
+3. **Read `library/win-loss-analysis.md`.** ACBN wins formula-assessed programs
+   and mandate-explicit Black-economy programs; it loses competitively scored
+   applications where outcome evidence decides, and programs requiring its work
+   to be reframed into an adjacent agenda. If the one being drafted is in a
+   losing category, say so before writing 30 pages.
+4. Read the funder's actual guidelines. Extract the questions verbatim and the
    scoring rubric if published.
-3. For each question, find the matching block in `grants/library/answers/` by
+5. For each question, find the matching block in `grants/library/answers/` by
    `question_types`. Adapt — match their vocabulary, hit their word count,
    foreground the pillar they fund. Never paste unchanged.
-4. Pull evidence from `library/track-record.md` and `library/reach-and-impact.md`.
+6. Pull evidence from `library/track-record.md` and `library/reach-and-impact.md`.
    Follow the deployment guidance in track-record.md — the argument changes with
    the size of the ask.
-5. For a needs statement, pull from `library/research/evidence-base.md` (external
+7. For a needs statement, pull from `library/research/evidence-base.md` (external
    authority) and `library/research/acbn-own-research.md` (ACBN's own survey,
    the Ontario Public Service labour market assessment, and the Gibbs & Knight
    policy response). National statistic, then ACBN's primary data, then a
    concrete instance of harm.
-6. For anything ecosystem-, capacity- or equity-shaped, open from
+8. For anything ecosystem-, capacity- or equity-shaped, open from
    `library/theory-of-change.md`. That Afrocentric-paradigm argument is ACBN's
    most distinctive asset and it carried the $1.315M Ecosystem Fund. Name
    delivery partners from `library/partners.md`, confirming each is still active
    first.
-7. Follow `library/voice.md`. Claim, evidence, mechanism, stakes.
-8. Write the application record in `grants/applications/` as you go, not after.
-9. Flag every place the application needs a number ACBN doesn't have. Do not
+9. Follow `library/voice.md`. Claim, evidence, mechanism, stakes.
+10. Write the application record in `grants/applications/` as you go, not after.
+11. Flag every place the application needs a number ACBN doesn't have. Do not
    paper over the gap.
 
 After a decision lands — either way — return to the record and write the outcome

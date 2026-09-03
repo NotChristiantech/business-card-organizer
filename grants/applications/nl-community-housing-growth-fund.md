@@ -3,7 +3,7 @@ id: nl-community-housing-growth-fund
 applicant: acbn
 funder: nl-chgf
 program: NL Community Housing Growth Fund
-stage: prospect
+stage: under_review
 amount_requested: null
 deadline: null
 owner: ryan
@@ -11,26 +11,40 @@ watch:
   from_domains: [gov.nl.ca]
   subject_terms: ["Community Housing Growth Fund", "CHGF"]
 tags: [housing, atlantic]
-needs_verification: [eligibility, deadline, amount, nl_presence]
+needs_verification: [submitted, amount_requested, decision_expected]
 ---
 
 # NL Community Housing Growth Fund
 
 Part of the housing workstream (`ryan.housing@acbncanada.com`).
 
-## Blocking question
+## Status
 
-What is ACBN's Newfoundland and Labrador presence?
+Submitted, awaiting decision (confirmed by Ryan, 2026-09-03).
 
-An earlier version of this note reasoned that two Atlantic rows in the pipeline
-(this one and the Regional AI Initiative, then filed under ACOA) implied a
-deliberate Atlantic strategy. That inference is withdrawn — RAII turns out to be
-a FedDev Ontario application. This row now stands alone, so the question is
-simply whether there is an NL footprint at all, and if not, whether to close it.
+This settles the earlier doubt about whether the row was real. It also means the
+Atlantic question is not "should we close this" but "how strong is the NL case
+we already made" — worth capturing from the submitted application, because if
+this lands it opens a regional funder set ACBN has not otherwise touched.
+
+An earlier note here inferred a deliberate Atlantic strategy from two Atlantic
+rows in the pipeline. That reasoning is withdrawn — the other row, the Regional
+AI Initiative, turned out to be a FedDev Ontario application. This one stands on
+its own.
 
 ## Context
 
 ACBN's housing work is live and financially significant: the 175 Springbank
 project is in construction with CMHC funds flowing, alongside Skygrid, TWC and
-Clinton Reid. That is real housing delivery experience and it is a much stronger
-credential than a first-time housing applicant would have. Use it.
+Clinton Reid. That is real housing delivery experience and a much stronger
+credential than a first-time housing applicant would have.
+
+The Vancity result reinforces this: they approved ACBN's Community Housing Loan
+while declining the research grant. ACBN reads credibly as a housing *operator*.
+Lead with delivery here, not research.
+
+## Next actions
+
+- [ ] Record the submission date and amount requested
+- [ ] Capture the NL presence/partnership case made in the application
+- [ ] Confirm the expected decision window

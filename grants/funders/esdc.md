@@ -49,6 +49,26 @@ practical consequences:
    covers three sub-questions scores lower than three plain ones, because the
    scorer is ticking sub-questions.
 
+## Win/loss — the pattern that matters
+
+| Program | Assessment | Outcome |
+|---|---|---|
+| Canada Summer Jobs 2025 | Formula-driven wage subsidy | **Won** |
+| Canada Summer Jobs 2026 | Formula-driven wage subsidy | **Won** |
+| CIPAD | Competitively scored | Declined |
+| SDG Funding Program | Competitively scored | Declined |
+| Youth Employment (YESS) | Competitively scored | Declined |
+
+Two wins, three declines — and the line falls exactly on how the program is
+assessed, not on subject matter. Both wins are Canada Summer Jobs.
+
+CIPAD is the instructive one: it supports the UN International Decade for People
+of African Descent, so mandate fit was never the issue. It still lost. That
+points at outcome evidence rather than fit — the gap documented in
+`../library/reach-and-impact.md`.
+
+Full analysis: `../library/win-loss-analysis.md`.
+
 ## Lessons
 
 - **Canada Summer Jobs is ACBN's most reliable money.** Won in 2025 and again in

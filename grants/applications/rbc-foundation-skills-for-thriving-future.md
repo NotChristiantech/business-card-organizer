@@ -19,11 +19,17 @@ needs_verification: [amount_requested, contact]
 Supporting materials:
 `https://drive.google.com/drive/folders/17GbALjx48awUNMvfrTph6EJjsgizEfoA`
 
+## Not submitted — confirmed 2026-09-03
+
 ## The rolling-deadline trap
 
-"Rolling" means there is no forcing function, and applications without a
-forcing function do not get written. **Set a self-imposed submission date and
-treat it as real**, or this row will still read `prospect` a year from now.
+Ryan confirmed this has not gone in. It is the **only** unsubmitted item left in
+the active pipeline: everything else has been submitted or decided.
+
+That is the rolling-deadline problem exactly. "Rolling" means no forcing
+function, and applications without a forcing function do not get written — while
+seven applications with hard dates all got done. **Set a self-imposed submission
+date and put it on the calendar**, or this will still read `prospect` next year.
 
 ## Positioning
 

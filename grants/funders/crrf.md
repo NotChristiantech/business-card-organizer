@@ -17,7 +17,16 @@ resolves. The tracker records only "Canada Race Relations Youth Event" for
 EISBY, and CRRF is the most likely funder — verify before relying on this file
 or approaching them.
 
-## If confirmed
+## Our history
 
-CRRF funds anti-racism and race-relations work and would be a strong fit for
-both ACBN and its client organizations. Worth a proper dossier.
+The Canada Race Relations Youth Event application, submitted for **EISBY**, was
+**declined** (confirmed 2026-09-03).
+
+## If confirmed as the funder
+
+CRRF funds anti-racism and race-relations work, which looks like a strong fit on
+paper. But it falls into the mandate-adjacent category in
+`../library/win-loss-analysis.md` — event and race-relations funding, rather than
+Black economic participation, which is where ACBN's wins cluster.
+
+Confirm the funder identity and get the decline reason before applying again.

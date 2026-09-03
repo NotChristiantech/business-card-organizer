@@ -2,10 +2,17 @@
 id: acbn
 name: Afro-Caribbean Business Network
 short_name: ACBN
-legal_name: null          # see "Which name goes on an application" below
+legal_name: AFRO-CARIBBEAN BUSINESS NETWORK
 former_names:
-  - Afro-Caribbean Business Network Foundation
-  - Afro Caribbean Business Network
+  - AFRO-CARIBBEAN BUSINESS NETWORK FOUNDATION CANADA   # legal name until 2026-06-05
+  - Afro-Caribbean Business Network Foundation          # informal usage
+ontario_corporation_number: 1987142
+incorporated: 2018-01-17
+statute: Ontario Not-for-Profit Corporations Act, 2010 (ONCA)
+charitable_status: none      # articles state "non-charitable not-for-profit"
+name_changed: 2026-06-05
+directors_min: 3
+directors_max: 11
 website: https://acbncanada.com
 type: nonprofit
 country: CA
@@ -25,28 +32,96 @@ leadership:
     role: Team
     email: karen.rowe@acbncanada.com
 banking: Alterna Savings
-needs_verification: [legal_name, charitable_status, cra_bn, incorporation_date, fiscal_year_end, board_roster, annual_budget]
+needs_verification: [cra_bn, fiscal_year_end, board_roster, annual_budget]
 ---
 
 # Afro-Caribbean Business Network (ACBN)
 
-## Which name goes on an application
+## Legal identity
 
-The current name is **Afro-Caribbean Business Network**. Use it in all narrative
-prose, boilerplate and correspondence.
+Verified against the Certificate and Articles of Amendment
+(`../documents/`), Ontario Ministry of Public and Business Service Delivery.
 
-The *legal* applicant name is a separate question and is deliberately left
-unset. Two other forms are in active circulation: "Afro-Caribbean Business
-Network Foundation" appears in Ryan's email signature, and Alterna's August 2026
-correspondence refers to the "Afro-Caribbean Business Network Foundation Canada
-portfolio" — so the banking entity still carries *Foundation*.
+| Field | Value |
+|---|---|
+| Legal name | **AFRO-CARIBBEAN BUSINESS NETWORK** |
+| Ontario Corporation Number | **1987142** |
+| Incorporated | **17 January 2018** |
+| Statute | Ontario Not-for-Profit Corporations Act, 2010 (ONCA) |
+| Charitable status | **None — explicitly non-charitable** |
+| Former legal name | AFRO-CARIBBEAN BUSINESS NETWORK FOUNDATION CANADA |
+| Name change effective | **5 June 2026** (members approved 20 March 2026) |
+| Directors | Minimum 3, maximum 11 |
 
-This is worth resolving properly rather than guessing. On a federal application
-the applicant's legal name has to match the incorporation and CRA records
-exactly; a mismatch between the name on the form, the name on the bank account
-receiving the funds, and the name on the incorporation certificate is a routine
-cause of delayed or refused disbursement. Confirm the name on the incorporation
-certificate, then fill `legal_name` and clear it from `needs_verification`.
+Legal name and operating name are now the same. Use it everywhere.
+
+## ⚠ ACBN is NOT a registered charity
+
+The amended purposes state the corporation exists **"to operate a non-charitable
+not-for-profit corporation."** This is a deliberate structural choice, not an
+oversight, and it is the single most important eligibility fact in this
+repository.
+
+It means ACBN **cannot** issue charitable tax receipts, is **not** a qualified
+donee, and is **ineligible** for any program restricted to registered charities.
+Many private and corporate foundations grant only to qualified donees.
+
+Check this before drafting anything for a foundation. See
+`../library/eligibility.md` for the full constraint and the workarounds.
+
+## ⚠ The name change is three months old — funders still hold the old one
+
+Every application submitted before **5 June 2026** went in as *Afro-Caribbean
+Business Network Foundation Canada*. That covers essentially the entire funding
+history, including the BEP Ecosystem Fund.
+
+This is live risk, not paperwork:
+
+- **BEP 2.0 has just been won** and funds are expected through a newly opened
+  Alterna sub-account. If FedDev holds the old legal name and the bank account
+  carries a third variant, the disbursement can stall — after the award, when
+  the money is already committed.
+- Alterna's August 2026 correspondence still refers to the "Afro-Caribbean
+  Business Network Foundation Canada portfolio."
+- Ryan's email signature still says Foundation.
+
+- [ ] Notify FedDev of the legal name change and send the Certificate +
+      Articles **before the first BEP 2.0 disbursement**
+- [ ] Notify every funder with an open application or live reporting obligation
+- [ ] Update the Alterna account name to match the certificate
+- [ ] Update email signatures and the website
+
+## Corporate purposes — check the housing work against these
+
+The amended objects (5 June 2026) are:
+
+> The establishment and operation of a business network especially focused on
+> the black community for the purpose of: (a) uniting and engaging the Ontario
+> and Canadian residents of black origin; (b) promoting interests of members and
+> mutual aid and assistance; (c) pursuing interests in the civic, commercial,
+> social and moral welfare of the community; (d) encouraging and carrying on
+> social and welfare work; (e) improving and promoting good business ethics and
+> practices; (f) to operate a non-charitable not-for-profit corporation.
+
+Quote (a)–(e) directly when a funder asks for the mandate — an applicant citing
+its own registered objects reads better than a paraphrased mission.
+
+**A question worth putting to counsel:** the objects are business-network
+focused, and the special provisions authorise acquiring and operating buildings
+"for use as offices and administrative facilities and for purposes in support of
+its objects." That language reads as premises for ACBN's own operations rather
+than affordable-housing development. ACBN is nonetheless the applicant on the NL
+Community Housing Growth Fund and the Vancity housing applications, and is party
+to 175 Springbank.
+
+This is not a legal opinion — but a housing funder's due diligence will read the
+objects, and "social and welfare work" may or may not carry it. Worth a
+30-minute check now rather than a surprise at disbursement.
+
+## Dissolution clause
+
+On dissolution, after debts, remaining property goes to charitable organisations
+carrying on their work solely in Canada. Some funders ask for this.
 
 ## Mission
 
