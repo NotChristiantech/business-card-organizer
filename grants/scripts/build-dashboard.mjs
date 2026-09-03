@@ -39,6 +39,8 @@ const STAGE_LABEL = {
 /** Attention tier drives every colour decision on the page. */
 function tier(app) {
   const days = daysUntil(iso(app.deadline));
+  if (app.outcome === 'awarded') return 'won';
+  if (app.outcome === 'declined') return 'lost';
   if (!OPEN_STAGES.has(app.stage)) return 'settled';
   if (days !== null && days < 0) return 'overdue';
   if (days !== null && days <= 30) return 'urgent';
@@ -58,7 +60,7 @@ const enriched = applications
     unverified: data.needs_verification ?? [],
   }))
   .sort((a, b) => {
-    const rank = { overdue: 0, urgent: 1, ambiguous: 2, steady: 3, settled: 4 };
+    const rank = { overdue: 0, urgent: 1, ambiguous: 2, steady: 3, won: 4, lost: 5, settled: 6 };
     if (rank[a.tier] !== rank[b.tier]) return rank[a.tier] - rank[b.tier];
     if (a.days !== null && b.days !== null) return a.days - b.days;
     return a.days === null ? 1 : -1;
@@ -68,6 +70,9 @@ const open = enriched.filter((a) => OPEN_STAGES.has(a.stage));
 const needsDate = open.filter((a) => !a.deadline && a.stage !== 'prospect');
 const unverifiedCount = enriched.reduce((n, a) => n + a.unverified.length, 0);
 const attention = enriched.filter((a) => ['overdue', 'urgent', 'ambiguous'].includes(a.tier));
+const won = enriched.filter((a) => a.outcome === 'awarded');
+const lost = enriched.filter((a) => a.outcome === 'declined');
+const unknownOutcome = enriched.filter((a) => !OPEN_STAGES.has(a.stage) && a.outcome == null);
 const clientWork = enriched.filter((a) => a.applicant !== 'acbn');
 
 const railMax = Math.max(1, ...STAGE_RAIL.map(([id]) => enriched.filter((a) => a.stage === id).length));
@@ -94,7 +99,11 @@ const row = (app) => `
         <article class="rec rec--${app.tier}">
           <div class="rec__head">
             <h3 class="rec__program">${esc(app.program)}</h3>
-            ${chip(STAGE_LABEL[app.stage] ?? app.stage, app.tier === 'settled' ? 'settled' : 'stage')}
+            ${
+              app.outcome
+                ? chip(app.outcome === 'awarded' ? 'Won' : 'Declined', app.outcome === 'awarded' ? 'won' : 'lost')
+                : chip(STAGE_LABEL[app.stage] ?? app.stage, app.tier === 'settled' ? 'settled' : 'stage')
+            }
           </div>
           <p class="rec__meta">
             <span class="rec__funder">${esc(app.funderName)}</span>
@@ -118,7 +127,9 @@ const row = (app) => `
 const groups = [
   ['Needs attention', attention, 'Passed deadlines, due inside 30 days, or a status nobody has confirmed.'],
   ['In flight', open.filter((a) => !attention.includes(a)), 'Moving, with no date forcing action this month.'],
-  ['Settled', enriched.filter((a) => !OPEN_STAGES.has(a.stage)), 'Closed, awarded or declined. Kept for the narrative and the lessons.'],
+  ['Won', won, 'Funded. Awards carry reporting obligations, and reported-on money is what gets renewed.'],
+  ['Declined', lost, 'Every one of these should carry a recorded reason. The reason is worth more than the application was.'],
+  ['Outcome unrecorded', unknownOutcome, 'Closed, but nobody wrote down whether they were won or lost — so nothing can be learned from them yet.'],
 ];
 
 const today = new Date().toISOString().slice(0, 10);
@@ -241,6 +252,8 @@ const html = `<title>ACBN Grant Pipeline</title>
   .rec--urgent::before { background: var(--urgent); }
   .rec--ambiguous::before { background: var(--ambiguous); }
   .rec--steady::before { background: var(--line-strong); }
+  .rec--won::before { background: var(--accent); }
+  .rec--lost::before { background: var(--ink-faint); }
   .rec__head { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
   .rec__program { font-family: var(--display); font-weight: 600; font-size: 16.5px; margin: 0; letter-spacing: -.01em; }
   .rec__meta { margin: 0; font-size: 13px; color: var(--ink-soft); display: flex; gap: 7px; flex-wrap: wrap; }
@@ -269,6 +282,13 @@ const html = `<title>ACBN Grant Pipeline</title>
   .chip--urgent { background: var(--urgent-soft); color: var(--urgent); }
   .chip--overdue { background: var(--overdue-soft); color: var(--overdue); }
   .chip--ambiguous { background: var(--ambiguous-soft); color: var(--ambiguous); }
+  .chip--won { background: var(--accent); color: var(--surface); text-transform: uppercase; letter-spacing: .07em; font-size: 10px; font-weight: 500; }
+  .chip--lost { background: var(--surface-sunk); color: var(--ink-faint); border-color: var(--line-strong); text-transform: uppercase; letter-spacing: .07em; font-size: 10px; }
+  .tile__num--split { display: flex; align-items: baseline; gap: 3px; }
+  .tile__num--split .won { color: var(--accent); }
+  .tile__num--split .lost { color: var(--ink-soft); }
+  .tile__slash { color: var(--line-strong); font-weight: 400; }
+  .tile__unk { color: var(--ink-faint); }
 
   .legend { display: flex; gap: 18px; flex-wrap: wrap; font-family: var(--mono); font-size: 11px; color: var(--ink-soft); }
   .legend span { display: flex; align-items: center; gap: 6px; }
@@ -311,9 +331,14 @@ const html = `<title>ACBN Grant Pipeline</title>
       <span class="tile__note">must not be quoted to a funder</span>
     </div>
     <div class="tile">
+      <span class="tile__num tile__num--split"><span class="won">${won.length}</span><span class="tile__slash">/</span><span class="lost">${lost.length}</span><span class="tile__slash">/</span><span class="tile__unk">${unknownOutcome.length}</span></span>
+      <span class="tile__label">Won / declined / unrecorded</span>
+      <span class="tile__note">no win rate — too many unrecorded</span>
+    </div>
+    <div class="tile">
       <span class="tile__num">${money(record.total_awarded) ?? '—'}</span>
       <span class="tile__label">Secured to date, ${record.award_count ?? '?'} awards</span>
-      <span class="tile__note">deck-sourced · unverified</span>
+      <span class="tile__note">deck-sourced · excludes debt</span>
     </div>
   </div>
 
@@ -337,6 +362,7 @@ const html = `<title>ACBN Grant Pipeline</title>
       <span><i style="background:var(--urgent)"></i> due within 30 days</span>
       <span><i style="background:var(--ambiguous)"></i> status unconfirmed</span>
       <span><i style="background:var(--line-strong)"></i> in flight</span>
+      <span><i style="background:var(--accent)"></i> won</span>
     </div>
   </section>
 

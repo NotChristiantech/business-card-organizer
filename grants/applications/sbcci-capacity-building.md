@@ -4,6 +4,7 @@ applicant: acbn
 funder: sbcci
 program: Supporting Black Canadian Communities Initiative — Capacity Building
 stage: closed
+outcome: awarded
 amount_awarded: null
 currency: CAD
 portal_url: https://sbcc-acnc.smapply.ca/sub/30176832/

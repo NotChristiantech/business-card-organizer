@@ -4,6 +4,7 @@ applicant: acbn
 funder: ffbc
 program: BIG Bridge and Build Grant
 stage: closed
+outcome: awarded
 amount_awarded: null   # tracker says $74,000 — unverified, see body
 currency: CAD
 portal_url: https://blackcommunities.smapply.us/prog/

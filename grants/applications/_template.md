@@ -4,6 +4,7 @@ applicant:            # org id from orgs/
 funder:               # funder id from funders/
 program: 
 stage: prospect       # prospect | drafting | submitted | under_review | awarded | declined | withdrawn | reporting | closed
+outcome: null         # awarded | declined | withdrawn | null (still open)
 amount_requested: null
 amount_awarded: null
 currency: CAD

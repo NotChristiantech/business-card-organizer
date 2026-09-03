@@ -3,7 +3,8 @@ id: public-safety-gcp-vos
 applicant: acbn
 funder: public-safety-canada
 program: Grants and Contributions Program to Voluntary Organizations (GCP-VOs)
-stage: prospect
+stage: declined
+outcome: declined
 amount_requested: 500000
 currency: CAD
 deadline: 2026-01-23
@@ -13,24 +14,45 @@ watch:
   from_domains: [publicsafety.gc.ca, ps-sp.gc.ca, canada.ca]
   subject_terms: ["GCP-VO", "Voluntary Organizations", "Public Safety"]
 tags: [crime-prevention, federal, large]
-needs_verification: [stage, submitted, next_cycle_deadline]
+needs_verification: [decline_reason, decision_date, next_cycle_deadline]
 ---
 
 # Public Safety Canada — GCP-VOs
 
-## Ambiguous state — resolve first
+## Outcome — DECLINED
 
-The tracker records a deadline of **2026-01-23** and a value of **$500,000**,
-but the row sits under *past* grants. Today is 2026-09-03, so that date has
-passed. Either it was submitted in January and is awaiting a decision, or it
-lapsed and the next cycle is the target.
+Submitted against the 2026-01-23 deadline; declined. Confirmed by Ryan,
+2026-09-03. This resolves the ambiguity in the tracker, where the row sat under
+past grants with a future-looking deadline.
 
-At $500,000 this is the second-largest opportunity in the pipeline. Worth an
-explicit answer rather than leaving it ambiguous in a spreadsheet.
+At $500,000 this was the second-largest ask in the portfolio, so the decline is
+worth understanding rather than filing.
+
+## Get the debrief — this is the actionable part
+
+Federal programs will usually give feedback on request, and almost nobody asks.
+A recorded reason here is worth more than the application was, because it
+applies to more than this funder:
+
+- Was it eligibility, scoring, or simply an oversubscribed envelope? These have
+  completely different implications — the first means don't reapply, the third
+  means reapply unchanged.
+- If scored: which sections lost points? Given the gaps in
+  `library/reach-and-impact.md`, outcome evidence is the likeliest weakness, and
+  confirming that would justify the measurement work across the whole portfolio.
+- Is there a resubmission route for the next cycle?
+
+## Pattern worth watching
+
+This is ACBN's second Public Safety application. The
+[National Crime Prevention Fund](acbn-national-crime-prevention-fund.md) outcome
+is still unrecorded. If that one was also declined, ACBN is 0-for-2 with this
+funder and the crime-prevention framing may simply not be landing — which is a
+strategy question, not an application question.
 
 ## Next actions
 
-- [ ] Submitted in January, or missed?
-- [ ] If submitted: decision timeline
-- [ ] If missed: next cycle's date, diarised
-- [ ] Read across from `acbn-national-crime-prevention-fund.md` — same funder
+- [ ] Request the decline reason from the program officer
+- [ ] Record it here and in `funders/public-safety-canada.md`
+- [ ] Recover the National Crime Prevention Fund outcome
+- [ ] Decide on the next cycle once the reason is known

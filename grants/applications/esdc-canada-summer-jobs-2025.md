@@ -4,6 +4,7 @@ applicant: acbn
 funder: esdc
 program: Canada Summer Jobs 2025
 stage: closed
+outcome: awarded
 amount_awarded: null
 portal_url: https://srv136.services.gc.ca/OSR/pro/Project/Project/Index
 owner: ryan

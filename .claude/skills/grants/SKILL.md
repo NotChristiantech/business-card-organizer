@@ -60,14 +60,19 @@ what changed in the library, not a folder-by-folder narration.
 4. Pull evidence from `library/track-record.md` and `library/reach-and-impact.md`.
    Follow the deployment guidance in track-record.md — the argument changes with
    the size of the ask.
-5. For anything ecosystem-, capacity- or equity-shaped, open from
+5. For a needs statement, pull from `library/research/evidence-base.md` (external
+   authority) and `library/research/acbn-own-research.md` (ACBN's own survey,
+   the Ontario Public Service labour market assessment, and the Gibbs & Knight
+   policy response). National statistic, then ACBN's primary data, then a
+   concrete instance of harm.
+6. For anything ecosystem-, capacity- or equity-shaped, open from
    `library/theory-of-change.md`. That Afrocentric-paradigm argument is ACBN's
    most distinctive asset and it carried the $1.315M Ecosystem Fund. Name
    delivery partners from `library/partners.md`, confirming each is still active
    first.
-6. Follow `library/voice.md`. Claim, evidence, mechanism, stakes.
-7. Write the application record in `grants/applications/` as you go, not after.
-8. Flag every place the application needs a number ACBN doesn't have. Do not
+7. Follow `library/voice.md`. Claim, evidence, mechanism, stakes.
+8. Write the application record in `grants/applications/` as you go, not after.
+9. Flag every place the application needs a number ACBN doesn't have. Do not
    paper over the gap.
 
 After a decision lands — either way — return to the record and write the outcome

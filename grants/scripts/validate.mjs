@@ -7,7 +7,7 @@
  * dashboard, and — most importantly — a number being quoted while it's still
  * listed as unverified.
  */
-import { loadDir, STAGES, OPEN_STAGES } from './lib.mjs';
+import { loadDir, STAGES, OUTCOMES, OPEN_STAGES } from './lib.mjs';
 
 const errors = [];
 const warnings = [];
@@ -36,7 +36,7 @@ for (const { file, data } of [...orgs, ...funders]) {
   if (!data.id) errors.push(`${file}: missing 'id'`);
 }
 
-for (const { file, data } of applications) {
+for (const { file, data, body } of applications) {
   const at = (msg) => `${file}: ${msg}`;
 
   if (!data.id) errors.push(at("missing 'id'"));
@@ -67,8 +67,28 @@ for (const { file, data } of applications) {
     }
   }
 
-  if (data.stage === 'awarded' && data.amount_awarded == null) {
-    warnings.push(at("stage is 'awarded' but amount_awarded is null"));
+  // `stage` is where it sits now; `outcome` is how it ended. A closed record
+  // without an outcome has lost the only thing worth keeping it for.
+  if (data.outcome != null && !OUTCOMES.includes(data.outcome)) {
+    errors.push(at(`outcome '${data.outcome}' is not one of: ${OUTCOMES.join(', ')}`));
+  }
+  if (['awarded', 'reporting'].includes(data.stage) && data.outcome !== 'awarded') {
+    errors.push(at(`stage '${data.stage}' requires outcome 'awarded'`));
+  }
+  if (data.stage === 'declined' && data.outcome !== 'declined') {
+    errors.push(at("stage 'declined' requires outcome 'declined'"));
+  }
+  if (data.stage === 'closed' && data.outcome == null) {
+    warnings.push(at("stage 'closed' with no outcome — record whether it was won or lost"));
+  }
+  if (OPEN_STAGES.has(data.stage) && data.outcome != null) {
+    errors.push(at(`stage '${data.stage}' is still open but carries outcome '${data.outcome}'`));
+  }
+  if (data.outcome === 'awarded' && data.amount_awarded == null) {
+    warnings.push(at('outcome is awarded but amount_awarded is null'));
+  }
+  if (data.outcome === 'declined' && !/decline_reason|## Outcome|debrief/i.test(body ?? '')) {
+    warnings.push(at('declined with no recorded reason — the reason is worth more than the application was'));
   }
   // A prospect legitimately has no date yet; anything being actively worked
   // does, and without one nothing will ever remind you about it.

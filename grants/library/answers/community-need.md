@@ -21,24 +21,35 @@ that gap.
 - Peel Region and the Greater Toronto Area hold one of the largest Black
   populations in Canada, and ACBN is embedded there rather than reaching in.
 
-## Evidence we should be citing but currently are not
+## External evidence — use `../research/evidence-base.md`
 
-This section is thin, and it is the section that loses points. Every strong
-needs statement pairs the applicant's own data with external authority. Pull
-and keep current:
+This section used to be a list of evidence ACBN "should be citing but is not".
+That gap is closed: the **Research Reports — Black Community** folder holds
+Senate-commissioned survey data, federal BEP consultation reports, and sector
+studies, all distilled in `../research/evidence-base.md`.
+
+The strongest single pairing for a needs statement:
+
+> **75% of Black entrepreneurs report difficulty securing even $10,000** in
+> funding (Abacus Data, commissioned by the African Canadian Senate Group and
+> Senator Colin Deacon) — and ACBN's own survey of 1,014 Black founders in Peel
+> and the GTA found **71% either unregistered or sole proprietors**, which
+> excluded them from the $962M Regional Recovery Relief Fund because it
+> required incorporation.
+
+National authority, then ACBN's own primary data, then a concrete instance of
+the harm. That sequence is a complete needs statement in three sentences.
+
+Federal programs reward a needs statement that cites the government's own
+published rationale back to them — the BEP consultation summary reports are in
+the research folder and cost nothing to quote.
+
+## Still genuinely missing
 
 - [ ] Statistics Canada data on Black-owned business formation, revenue and
       survival rates vs. the national baseline
-- [ ] Financing gap evidence — Black entrepreneurs' loan approval and denial
-      rates (BDC, Statistics Canada, and the research underpinning the federal
-      Black Entrepreneurship Program)
-- [ ] Regional data for Peel / GTA specifically
 - [ ] A demand signal of our own: applications received vs. funded, or waitlist
-      size for the microloan program
-
-Federal programs in particular reward a needs statement that cites the
-government's own published rationale back to them. The Black Entrepreneurship
-Program's founding documents are the obvious source and cost nothing to quote.
+      size for the microloan program — this is the one only ACBN can produce
 
 ## What to avoid
 

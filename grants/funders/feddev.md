@@ -8,7 +8,7 @@ typical_cycle: per-call
 watch:
   from_domains: [feddev-ontario.canada.ca, canada.ca, ised-isde.gc.ca]
   subject_terms: ["FedDev", "Black Entrepreneurship Program", "Ecosystem Fund", "BEP"]
-needs_verification: [bep_2_status, bep_2_amount]
+needs_verification: [bep_2_amount, bep_2_reporting_schedule, raii_status]
 ---
 
 # FedDev Ontario
@@ -19,16 +19,24 @@ The **Black Entrepreneurship Program (BEP) Ecosystem Fund** is the source of
 ACBN's largest recorded award: **$1,315,000**. It is the single strongest proof
 point in the track record and the anchor of any large ask.
 
-## Current
+## Current — BEP 2.0 WON
 
-**2025 BEP 2.0 — Black Entrepreneurship Ecosystem Fund**, application dated
-2025-01-09. Status needs confirming — see
-`applications/feddev-bep-ecosystem-fund-2.md`. A renewal of the largest award in
-ACBN's history is the highest-value item in the entire pipeline and should be
-treated accordingly.
+Confirmed 2026-09-03. The largest award in ACBN's history has renewed.
 
-Related signal: a third Alterna sub-account was opened in September 2026 named
-"BEP", which suggests BEP 2.0 funds are anticipated or flowing. Confirm.
+This makes FedDev unambiguously ACBN's most important funder: BEP 1.0
+($1,315,000), the Community Revitalization Fund ($500,000), BEP 2.0, and an open
+Regional AI Initiative application. Protecting this relationship outranks almost
+anything else in the portfolio.
+
+The work now is **reporting**, and it is not administrative. BEP 1.0's reporting
+is what won BEP 2.0; BEP 2.0's reporting decides whether there is a third round.
+
+## Also open
+
+**Regional AI Initiative (RAII), Stream 2 — Not-for-Profit**
+(`applications/feddev-regional-ai-initiative.md`). The tracker filed this under
+ACOA; the Drive folder shows FedDev. An existing FedDev relationship this strong
+materially improves the odds.
 
 ## How they decide
 

@@ -3,7 +3,8 @@ id: esdc-canada-summer-jobs-2026
 applicant: acbn
 funder: esdc
 program: Canada Summer Jobs 2026
-stage: submitted
+stage: closed
+outcome: awarded
 amount_requested: null
 amount_awarded: null
 currency: CAD
@@ -18,15 +19,16 @@ watch:
   from_domains: [servicecanada.gc.ca, canada.ca]
   subject_terms: ["Canada Summer Jobs", "A001070969"]
 tags: [youth, employment, recurring]
-needs_verification: [amount_requested, deadline, submitted, decision_expected]
+needs_verification: [amount_awarded, positions_funded]
 ---
 
 # ESDC — Canada Summer Jobs 2026
 
-## Status
+## Status — WON, project completed
 
-Submitted. Confirmation number **A001070969** — the tracker records "Your
-submission was successful."
+Confirmed by Ryan, 2026-09-03. Funded, delivered, and finished.
+
+Confirmation number **A001070969**.
 
 ## The ask
 
@@ -46,7 +48,9 @@ brings youth capacity into the organization during the summer.
 
 ## Next actions
 
-- [ ] Record the amount requested and number of positions
-- [ ] Confirm the decision notification window
-- [ ] Diary the CSJ 2027 opening now — the window is short and fixed, and this
-      is the easiest application in the portfolio to lose by missing a date
+- [ ] Record the amount awarded and number of positions funded — this is a
+      completed delivery, so it is real outcome evidence, not a projection
+- [ ] Confirm whether a final report is outstanding
+- [ ] **Diary the CSJ 2027 opening now.** Two consecutive wins make this the
+      most reliable money in the portfolio, the window is short and fixed, and
+      it is by far the easiest application here to lose by missing a date

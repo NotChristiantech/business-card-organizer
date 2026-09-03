@@ -3,7 +3,8 @@ id: feddev-bep-ecosystem-fund-2
 applicant: acbn
 funder: feddev
 program: Black Entrepreneurship Program — Ecosystem Fund (BEP 2.0)
-stage: under_review
+stage: awarded
+outcome: awarded
 amount_requested: null
 amount_awarded: null
 currency: CAD
@@ -16,7 +17,7 @@ watch:
   from_domains: [feddev-ontario.canada.ca, ised-isde.gc.ca, canada.ca]
   subject_terms: ["Ecosystem Fund", "Black Entrepreneurship Program", "BEP", "FedDev"]
 tags: [entrepreneurship, federal, flagship, priority]
-needs_verification: [stage, amount_requested, submitted, decision_expected]
+needs_verification: [amount_awarded, decision_date, reporting_schedule]
 ---
 
 # FedDev — BEP Ecosystem Fund 2.0
@@ -30,25 +31,29 @@ would be the single largest revenue event ACBN could experience.
 
 Nothing else in this pipeline deserves attention ahead of it.
 
-## Status
+## Status — WON
 
-Tracker records "2025 BEP 2.0 - Black Entrepreneurship Ecosystem Fund" dated
-**2025-01-09**. Whether that is the submission date or the application-start
-date is unrecorded, and the current stage is unconfirmed.
+Confirmed by Ryan, 2026-09-03. ACBN's largest funding relationship renews.
 
-**Corroborating signal:** on 2026-09-03 a third Alterna chequing sub-account was
-requested and named **"BEP"** (letter of direction sent to Roderick Gutierrez at
-Alterna). Opening a dedicated account named for the program suggests funds are
-expected or already flowing — which would make the real stage `awarded`, not
-`under_review`.
+The dedicated Alterna sub-account named **"BEP"**, opened the same week, is
+consistent with funds being expected or already flowing.
+
+## What now matters
+
+The work shifts from winning to **reporting**, and that is not administrative
+housekeeping here. BEP 1.0's reporting is what won BEP 2.0; BEP 2.0's reporting
+is what will decide any third round. Set the schedule up properly at the start
+rather than reconstructing it at year end.
+
+Reporting also closes the outcome-data gap in
+`library/reach-and-impact.md` — the indicators committed to in the application
+(entrepreneurs served, unregistered-to-registered conversions, revenue growth)
+are exactly the numbers every other application is currently missing. Reporting
+well and harvesting those figures into the library is the same job done once.
 
 ## Next actions
 
-- [ ] **Confirm actual status.** Awarded, under review, or declined? This is the
-      most important unanswered question in the entire system.
-- [ ] If awarded: record the amount, set up the reporting schedule, and move
-      stage to `reporting`
-- [ ] If under review: identify the FedDev program officer and the decision
-      timeline
-- [ ] Record the first BEP award's reporting performance — for BEP 2.0 it is
-      effectively part of the application
+- [ ] Record the award amount and decision date
+- [ ] Build the reporting schedule into `reporting:` and onto the ACBN calendar
+- [ ] Confirm the FedDev program officer and the reporting format
+- [ ] Harvest BEP 1.0's reported results into `library/reach-and-impact.md`

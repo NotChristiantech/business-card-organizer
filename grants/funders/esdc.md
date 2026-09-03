@@ -21,9 +21,9 @@ a trap — deadlines are per-program and do not appear together anywhere.
 
 | Program | Status | Record |
 |---|---|---|
-| Canada Summer Jobs (CSJ) | Recurring annual | `applications/esdc-canada-summer-jobs-2026.md` |
-| New Horizons for Seniors | Active | `applications/esdc-new-horizons-seniors-2026.md` |
-| Accessible Canada Grant | Active | `applications/esdc-accessible-canada-grant.md` |
+| Canada Summer Jobs (CSJ) | **Won 2025 and 2026** | `applications/esdc-canada-summer-jobs-2026.md` |
+| New Horizons for Seniors | Submitted, awaiting decision | `applications/esdc-new-horizons-seniors-2026.md` |
+| Accessible Canada Grant | Submitted, awaiting review | `applications/esdc-accessible-canada-grant.md` |
 | Sustainable Development Goals (SDG) Funding Program | Past | `applications/esdc-sdg-grant.md` |
 | CIPAD (International Decade for People of African Descent) | Past | `applications/esdc-cipad.md` |
 | Youth Employment and Skills Strategy | Past | `applications/esdc-youth-employment-program.md` |
@@ -51,8 +51,12 @@ practical consequences:
 
 ## Lessons
 
-- Canada Summer Jobs is the reliable annual base — it recurs, ACBN has completed
-  it before (2025 completed, 2026 submitted), and the application is largely
-  reusable year to year. Diary it early; the window is short and fixed.
+- **Canada Summer Jobs is ACBN's most reliable money.** Won in 2025 and again in
+  2026, both delivered. It recurs annually, the application is largely reusable,
+  and two consecutive wins make a third likely. The only real way to lose it is
+  to miss the window, which is short and fixed — so diary CSJ 2027 now.
+- Two applications are currently with ESDC awaiting decision (New Horizons,
+  Accessible Canada). Both were submitted without a recorded amount or decision
+  window; capture those at submission next time, not afterwards.
 - ESDC programs have real compliance overhead after the award. Budget the
   reporting time when deciding whether to apply.

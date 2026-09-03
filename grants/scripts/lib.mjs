@@ -39,6 +39,8 @@ export const STAGES = [
   'closed',
 ];
 
+export const OUTCOMES = ['awarded', 'declined', 'withdrawn'];
+
 /** Stages where a deadline still matters and the application can still be lost. */
 export const OPEN_STAGES = new Set(['prospect', 'drafting', 'submitted', 'under_review']);
 

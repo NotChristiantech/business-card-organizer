@@ -3,7 +3,7 @@ id: esdc-new-horizons-seniors-2026
 applicant: acbn
 funder: esdc
 program: New Horizons for Seniors Program 2026
-stage: drafting
+stage: under_review
 amount_requested: null
 amount_awarded: null
 currency: CAD
@@ -14,29 +14,30 @@ watch:
   from_domains: [servicecanada.gc.ca, canada.ca]
   subject_terms: ["New Horizons for Seniors", "NHSP"]
 tags: [seniors, federal]
-needs_verification: [deadline, amount_requested, stage]
+needs_verification: [submitted, amount_requested, decision_expected]
 ---
 
 # ESDC — New Horizons for Seniors 2026
 
 ## Status
 
-Working notes exist: "2026 New Horizons for Seniors Application Notes". Stage
-inferred as drafting; confirm.
+Submitted, awaiting decision (confirmed by Ryan, 2026-09-03). Working notes
+exist: "2026 New Horizons for Seniors Application Notes".
 
 ## Fit
 
-Requires a genuine seniors-focused program. ACBN's core work is entrepreneurship
-and the seniors angle is not obvious from the existing programming — this needs
-a real design (Black senior entrepreneurs, intergenerational business transfer,
-digital literacy for older business owners) rather than a repackaging of
-existing activity.
+Note for the debrief either way: ACBN's core work is entrepreneurship, and the
+seniors angle is the least obvious fit in the portfolio. Whatever the outcome,
+record what was proposed and how it scored — it tells us whether ACBN can
+credibly reach outside its core mandate, which affects a lot of future
+go/no-go calls.
 
-Reviewers can tell the difference, and a stretched application costs the same
-effort as a fitted one. Decide deliberately whether this is worth the slot.
+The Youth Village partnership on intergenerational programming
+(`library/partners.md`) is the most natural bridge if this needs strengthening.
 
 ## Next actions
 
-- [ ] Confirm the deadline — NHSP community stream windows are firm
-- [ ] Decide on the program concept before drafting narrative
-- [ ] Confirm eligibility for the community vs. pan-Canadian stream
+- [ ] Record the submission date and amount requested
+- [ ] Confirm the expected decision window
+- [ ] File the application text — this is the first seniors-sector application
+      and there is no reusable seniors language in the library yet

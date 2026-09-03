@@ -59,6 +59,10 @@ on your own — with more support, entrepreneurship gets easier.
 - **Entrepreneurship** — fostering the next generation of Black Canadian
   entrepreneurs with programs and services.
 - **Convening** — connecting the community through the means of technology.
+  *(The ACBN Research Study Guide names this pillar **Empowerment** rather than
+  Convening, with the same description. Pick one and use it consistently — two
+  names for the same pillar across ACBN documents is the kind of thing a
+  diligent reviewer notices.)*
 - **Access to Funding** — providing microloan funding and access to investments,
   with the tools and skills to build financial literacy.
 - **Economic Inclusion** — breaking the economic barriers for the

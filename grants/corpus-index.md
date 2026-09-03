@@ -54,6 +54,17 @@ so a library of past ones is worth real time.
 | Just Like Family Support Letter — ACBN Our Elders Initiative | `1WVKEbLm6sfkhhJBlROqu3xRE5xR3b71-M6vAts2TmEw` |
 | CMN Reference Letter for ACBN digital advisor | `1aGpfQBox9taBlgbtpyi3nKUqIInmtvbw` |
 
+### Research Reports — Black Community
+
+A **second Drive folder**, outside `$ Grants and Sponsorship`:
+`https://drive.google.com/drive/folders/1pZ0_hDgFPNdFQRE9CqbCkTK48r0YXCkf`
+
+16 items — ACBN's own research plus the sector and government evidence base.
+**done** → indexed at `library/research/README.md`, distilled into
+`library/research/evidence-base.md` and `library/research/acbn-own-research.md`.
+The source PDFs have not been read directly; figures came from ACBN's own
+summary documents and need confirming at source before being quoted.
+
 ---
 
 ## Priority 2 — awarded grants
