@@ -1,47 +1,63 @@
 ---
-question_types: [evaluation, outcomes, measurement, KPIs, reporting plan, logic model]
+question_types: [evaluation, outcomes, measurement, KPIs, reporting plan, logic model, performance indicators]
 applicant: acbn
-status: draft
+status: ready
+source: ACBN Concept Paper — Black Ecosystem Fund
 ---
 
 # Evaluation and outcomes
 
-## Standing weakness — read this first
+> **Correction to an earlier version of this file.** It claimed evaluation was
+> ACBN's weakest answer area and proposed inventing a framework. That was wrong.
+> ACBN has a documented five-criteria Plan of Evaluation that was accepted as
+> part of the $1.315M Ecosystem Fund application. Use it; don't invent one.
 
-This is ACBN's weakest answer area, and it is worth fixing once rather than
-patching per application. We can evidence *reach* (6,000 in the database, 30,000
-through partners) far better than we can evidence *outcomes* (what changed for
-those entrepreneurs). Reviewers score outcomes, not reach.
+## ACBN Plan of Evaluation — the five criteria
 
-Closing the gaps in `reach-and-impact.md` — particularly microloan repayment
-rate and jobs created — would move nearly every future application up a band.
+Each is evaluated **monthly**, with variance explained and countermeasures
+planned. The monthly cadence is the part reviewers respond to: it reads as an
+operating discipline rather than an end-of-project report.
 
-## Standard outcome set to propose
+| Criterion | What is measured |
+|---|---|
+| **Budget** | Cost flow versus cash flow; financial feasibility, adjusting the monthly budget |
+| **Growth** | Growth Projection vs. actual, with Growth Variance explained — productivity, revenue, employees, or throughput |
+| **Throughput** | Throughput Expectation vs. Actual, with Throughput Variance and Countermeasure Action Planning (CAP). Measures: actual vs. planned enrolments, funded and viable businesses |
+| **Targets and Milestones** | Projected vs. achieved on time or missed, with explanation. Missed milestones are treated as an early indicator of project-objective delay |
+| **Compliance** | Compliance targets met vs. missed, with countermeasure planning. An indicator of lapses in business legality and fiduciary issues |
 
-Reusable across most ACBN applications; trim to what the program actually funds.
+## Performance indicators used
 
-| Level | Indicator | How measured |
-|---|---|---|
-| Output | Entrepreneurs served | Program intake records |
-| Output | Microloans issued (count, value) | Loan ledger |
-| Output | Workshops / convenings delivered, attendance | Event records |
-| Outcome | Businesses still operating at 12 months | Follow-up survey |
-| Outcome | Revenue change among supported businesses | Self-reported, intake vs. 12-month |
-| Outcome | Jobs created or sustained | Follow-up survey |
-| Outcome | Loan repayment rate | Loan ledger |
-| Outcome | Participants accessing further capital after ACBN support | Follow-up survey |
-| Impact | Business survival rate vs. regional baseline | Compare to StatCan baseline |
+From the same application — reusable as a starting set:
 
-## Method
+- Total entrepreneurs served
+- Entrepreneurs moving from unregistered to registered business
+- Revenue increase during time in program
+- Increase in entrepreneur skill set
+- Increase in entrepreneur network
+- Increase in knowledge of supports available to Black entrepreneurs
 
-Intake baseline at program entry, follow-up at 6 and 12 months, held in ACBN's
-CRM. Where a funder requires a logic model or theory of change, build it from
-this table — activities to outputs to outcomes — rather than inventing a new
-framework per application.
+Ecosystem-level targets committed to in that application:
 
-## Honest commitment
+- 3.3× increase in Black businesses receiving services from Black-led orgs
+- 67% increase in clients served by Black-led organizations
+- 90% satisfaction rate in client services
+- 500 new entrepreneurs helped to start a company
+- Growth in the share of supported Black-owned businesses self-reporting
+  revenue growth over 50%
+- Women maintained at 50% or higher among ACBN senior management
 
-Do not promise measurement infrastructure we do not have. It is better to
-propose a modest, genuinely deliverable evaluation plan and budget for it as a
-line item than to commit to a rigorous framework and under-report at year end.
-Under-reporting is what kills renewals.
+## What is still genuinely missing
+
+The framework is sound; the *historical results* are what we cannot yet quote.
+We can state what we will measure, but not what past measurement produced.
+
+- [ ] Actual results against these indicators from the completed BEP award —
+      this is the highest-value missing data in the system, because BEP 2.0 is
+      effectively judged on BEP 1.0's reported performance
+- [ ] Microloan repayment rate
+- [ ] Jobs created or sustained
+- [ ] Business survival rate vs. regional baseline
+
+Reporting from the first Ecosystem Fund award should contain most of this. It is
+in Drive under `$$ Active BEP` — pull it.

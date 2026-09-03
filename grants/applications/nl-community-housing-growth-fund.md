@@ -20,8 +20,13 @@ Part of the housing workstream (`ryan.housing@acbncanada.com`).
 
 ## Blocking question
 
-Same as ACOA: what is ACBN's Newfoundland and Labrador presence? Two Atlantic
-rows in one pipeline suggests a deliberate strategy — confirm it or close both.
+What is ACBN's Newfoundland and Labrador presence?
+
+An earlier version of this note reasoned that two Atlantic rows in the pipeline
+(this one and the Regional AI Initiative, then filed under ACOA) implied a
+deliberate Atlantic strategy. That inference is withdrawn — RAII turns out to be
+a FedDev Ontario application. This row now stands alone, so the question is
+simply whether there is an NL footprint at all, and if not, whether to close it.
 
 ## Context
 

@@ -26,6 +26,7 @@ grants/
 ├── opportunities/  Prospects not yet committed to: triage inbox + research findings
 ├── library/        Reusable narrative: voice, track record, impact stats, answer bank
 ├── scripts/        validate.mjs (schema check) and build-dashboard.mjs (renders the HTML view)
+├── corpus-index.md The Drive archive (~85 folders, 2019–2026) with ingest status
 └── private/        Git-ignored. Credentials, signed agreements, anything not for the repo.
 ```
 

@@ -24,11 +24,34 @@ The knowledge base is `grants/`. Read `grants/README.md` for the layout and
    submit an application, or post to a portal without explicit confirmation.
    Drafts and calendar entries are fine unprompted; outbound contact is not.
 
+## Ingesting past applications
+
+The archive is `$ Grants and Sponsorship` in Drive
+(`1lb8rwjmLgBUzHY4H0MZaUCpCIOlODS0h`) — roughly 85 folders spanning 2019–2026.
+`grants/corpus-index.md` lists every one with its Drive ID and a status, so the
+work is resumable across sessions.
+
+When asked to ingest, or when there's slack to do it:
+
+1. Take the next `todo` item in priority order from `corpus-index.md`.
+2. List the folder; read the application narrative, budget, and any decision or
+   reporting correspondence.
+3. Update `applications/` and `funders/`.
+4. **Lift every reusable answer into `library/answers/`.** This is the point —
+   the application record is bookkeeping, the answer bank is the asset.
+5. Record the outcome, and the reason if declined.
+6. Mark the row `done`.
+
+Ingest a few folders per session rather than attempting the whole archive. Report
+what changed in the library, not a folder-by-folder narration.
+
 ## Drafting an application
 
 1. Read the funder dossier (`grants/funders/<id>.md`) and the applicant profile
    (`grants/orgs/<id>.md`). Eligibility first — entity type, geography,
    charitable status, deadline. Four questions, and each one can void the work.
+   Check `orgs/<id>.md` for the legal applicant name; it is not always the
+   operating name.
 2. Read the funder's actual guidelines. Extract the questions verbatim and the
    scoring rubric if published.
 3. For each question, find the matching block in `grants/library/answers/` by
@@ -37,9 +60,14 @@ The knowledge base is `grants/`. Read `grants/README.md` for the layout and
 4. Pull evidence from `library/track-record.md` and `library/reach-and-impact.md`.
    Follow the deployment guidance in track-record.md — the argument changes with
    the size of the ask.
-5. Follow `library/voice.md`. Claim, evidence, mechanism, stakes.
-6. Write the application record in `grants/applications/` as you go, not after.
-7. Flag every place the application needs a number ACBN doesn't have. Do not
+5. For anything ecosystem-, capacity- or equity-shaped, open from
+   `library/theory-of-change.md`. That Afrocentric-paradigm argument is ACBN's
+   most distinctive asset and it carried the $1.315M Ecosystem Fund. Name
+   delivery partners from `library/partners.md`, confirming each is still active
+   first.
+6. Follow `library/voice.md`. Claim, evidence, mechanism, stakes.
+7. Write the application record in `grants/applications/` as you go, not after.
+8. Flag every place the application needs a number ACBN doesn't have. Do not
    paper over the gap.
 
 After a decision lands — either way — return to the record and write the outcome
