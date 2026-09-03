@@ -13,7 +13,7 @@ import { loadDir, parseDoc, GRANTS_DIR, money, daysUntil, OPEN_STAGES } from './
 
 const applications = loadDir('applications');
 const funders = new Map(loadDir('funders').map((f) => [f.data.id, f.data.name]));
-const orgs = new Map(loadDir('orgs').map((o) => [o.data.id, o.data.short_name ?? o.data.legal_name]));
+const orgs = new Map(loadDir('orgs').map((o) => [o.data.id, o.data.short_name ?? o.data.name ?? o.data.legal_name]));
 const record = parseDoc(join(GRANTS_DIR, 'library', 'track-record.md')).data ?? {};
 
 const esc = (s) =>

@@ -1,7 +1,11 @@
 ---
 id: acbn
-legal_name: Afro-Caribbean Business Network Foundation
+name: Afro-Caribbean Business Network
 short_name: ACBN
+legal_name: null          # see "Which name goes on an application" below
+former_names:
+  - Afro-Caribbean Business Network Foundation
+  - Afro Caribbean Business Network
 website: https://acbncanada.com
 type: nonprofit
 country: CA
@@ -21,10 +25,28 @@ leadership:
     role: Team
     email: karen.rowe@acbncanada.com
 banking: Alterna Savings
-needs_verification: [charitable_status, cra_bn, incorporation_date, fiscal_year_end, board_roster, annual_budget]
+needs_verification: [legal_name, charitable_status, cra_bn, incorporation_date, fiscal_year_end, board_roster, annual_budget]
 ---
 
-# Afro-Caribbean Business Network Foundation (ACBN)
+# Afro-Caribbean Business Network (ACBN)
+
+## Which name goes on an application
+
+The current name is **Afro-Caribbean Business Network**. Use it in all narrative
+prose, boilerplate and correspondence.
+
+The *legal* applicant name is a separate question and is deliberately left
+unset. Two other forms are in active circulation: "Afro-Caribbean Business
+Network Foundation" appears in Ryan's email signature, and Alterna's August 2026
+correspondence refers to the "Afro-Caribbean Business Network Foundation Canada
+portfolio" — so the banking entity still carries *Foundation*.
+
+This is worth resolving properly rather than guessing. On a federal application
+the applicant's legal name has to match the incorporation and CRA records
+exactly; a mismatch between the name on the form, the name on the bank account
+receiving the funds, and the name on the incorporation certificate is a routine
+cause of delayed or refused disbursement. Confirm the name on the incorporation
+certificate, then fill `legal_name` and clear it from `needs_verification`.
 
 ## Mission
 
