@@ -1,7 +1,7 @@
 ---
 id: wage-womens-economic-leadership-2026
 applicant: acbn
-co_applicants: [new-life-project]
+co_applicants: [new-life-project, resq-youth]
 collaborators: [black-womens-collective]
 funder: wage
 program: Women's Economic and Leadership Opportunities Fund 2026
@@ -16,7 +16,7 @@ watch:
   from_domains: [cfc-swc.gc.ca, femmes-egalite-genres.gc.ca, canada.ca]
   subject_terms: ["Women's Economic and Leadership", "WAGE", "Advancing Leadership"]
 tags: [women, leadership, systemic-change, federal, priority]
-needs_verification: [assessment_criteria, reach_level, womens_org_partner]
+needs_verification: [assessment_criteria, reach_level, co_applicant_rules]
 ---
 
 # WAGE — Women's Economic and Leadership Opportunities Fund 2026
@@ -179,7 +179,8 @@ two complement rather than duplicate — funders do notice.
 |---|---|---|
 | **ACBN** | **Lead applicant** | $4.8M track record, Black-led microloan adjudication model, lender relationships, primary research, CCEDNet reach |
 | **Black Women's Collective** | Collaborator / advisory — **not an applicant** | A Black women-owned business: the population the project serves, given a voice in rewriting the criteria |
-| **New Life Project** | Co-applicant / delivery | Incorporated not-for-profit (confirmed), so eligible as an applicant; prior delivery with ACBN — $21,000 SBCCI secured on their behalf |
+| **ResQ Youth International** | Co-applicant | **Woman-founded and woman-led** (Abigail Hamilton, Founder/ED), charitable status, youth reach bringing young Black women into scope, and prior delivery with ACBN — $30,000 IRP secured on their behalf |
+| **New Life Project** | Co-applicant | Incorporated not-for-profit (confirmed), so eligible as an applicant; prior delivery with ACBN — $21,000 SBCCI secured on their behalf |
 | Sheridan College EDGE | Research partner | WP1 evidence base; existing ACBN research relationship |
 | Alterna, Vancity, FACE, Woveo | Institutional participants | The lenders whose criteria change |
 | Canadian CED Network | Dissemination | National network of the institutions being targeted |
@@ -198,29 +199,46 @@ The question resolves by default:
   valuable, just not as an applicant. Read `../orgs/black-womens-collective.md`
   before contemplating any payment to them.
 
-### The consequence: the women's-organization gap is now unmitigated
+### The women's-organization gap: partly closed
 
-Partnering with a women's organization was the plan to answer ACBN's one
-remaining competitive weakness, and it has gone. WAGE **prioritizes women's
-organizations**; ACBN is a Black business network with a majority-women
-constituency, and New Life Project is not a women's organization either.
+**ResQ Youth International has agreed to co-apply** (2026-09-04). That helps
+meaningfully:
 
-**Highest-priority action in the next 48 hours: recruit one incorporated
-not-for-profit women's organization as co-applicant.** Candidates from the
-archive, in order:
+- **Woman-founded and woman-led** — Abigail Hamilton, Founder and Executive
+  Director. The consortium is no longer entirely led by organizations that are
+  not women-led.
+- **Charitable status**, a stronger compliance signal than ACBN's own
+  non-charitable structure.
+- **Prior delivery with ACBN** — $30,000 IRP secured on their behalf, so
+  partnership risk is evidenced rather than asserted.
+- **Age as an intersecting factor**, bringing young Black women entrepreneurs
+  into the GBA Plus analysis.
 
-1. **Jean Augustine Centre for Girls** — two working folders already exist
-   (`1FTxeNoQ_lFLOaqNLuAO2Z9__GcvtyAkr`, `1aNdqiCDReSsHHYnqv_QQ9KSoSIdETnjA`), so
-   there is a relationship to build on. Named for a Black woman parliamentarian,
-   serving girls and women. The strongest fit available.
-2. **Pitch Better / FoundHers Innovation Labs** — Black women founders, already
-   in Ryan's network. Confirm not-for-profit status.
-3. **ResQ Youth International** — woman-led with charitable status, though
-   youth-focused rather than a women's organization.
+**Be precise about what it does not do.** ResQ is a *youth* organization that is
+woman-led, not a *women's* organization. WAGE's stated priority is the latter.
+Do not describe ResQ as a women's organization anywhere in the application — a
+reviewer will check, and an overstated partner identity damages everything else
+in the submission.
 
-Without one, ACBN submits against the fund's stated priority with nothing
-offsetting it. Not fatal — GBA Plus makes the analytical case strong — but it is
-the single biggest thing still fixable before the deadline.
+**Still worth pursuing if there is time:** one genuine women's organization as a
+fourth co-applicant or named partner. **Jean Augustine Centre for Girls** remains
+the strongest candidate — two working folders already exist
+(`1FTxeNoQ_lFLOaqNLuAO2Z9__GcvtyAkr`, `1aNdqiCDReSsHHYnqv_QQ9KSoSIdETnjA`), and it
+is named for a Black woman parliamentarian. **Pitch Better / FoundHers** is the
+other, if not-for-profit.
+
+Weigh that against consortium size: three co-applicants is already substantial
+for a 48–60 month agreement, and a fourth added in the last week is a
+coordination risk, not just a positioning gain.
+
+### Confirm the consortium is permissible
+
+Three co-applicants may exceed what WAGE allows on a single application. Some
+programs take one applicant with named partners, not multiple co-applicants.
+**Establish this before writing the partnership sections** — if only one
+applicant is permitted, ACBN applies and ResQ and New Life Project become named
+delivery partners with letters of support, which changes little substantively
+and everything structurally.
 
 ### Reach and amount
 
@@ -238,7 +256,8 @@ interprovincial band still sits at $1,000,000.
 |---|---|
 | Institutions engage but do not change | Written commitments at the outset; publish adoption tracking; the standing table creates peer pressure |
 | Two gates is too broad for one project | The circularity argument — the gates lock each other, so attacking one is what fails |
-| Three-organization consortium coordination | ACBN's partner-management model from the BEP award (`../library/partners.md`): weekly check-ins, monthly reporting, quarterly strategy, and a named path if a partner cannot deliver |
+| Consortium coordination across three applicants | ACBN's partner-management model from the BEP award (`../library/partners.md`): weekly check-ins, monthly reporting, quarterly strategy, and a named path if a partner cannot deliver. That model was accepted on a $1.315M federal application — cite it |
+| Co-applicant capacity — ResQ is pursuing several other applications simultaneously | Define ResQ's work package narrowly, fund it properly, and confirm what they can sustain over 48–60 months before naming them |
 | Procurement thresholds are set by policy, not goodwill | Target buyers with discretion over supplier qualification; use CCEDNet for the policy layer |
 
 ## Before drafting — in this order
@@ -253,7 +272,12 @@ interprovincial band still sits at $1,000,000.
 - [ ] **Confirm Black Women's Collective is incorporated** with proof — if not,
       it cannot be an applicant and the lead question resolves by default
 - [ ] **Decide the lead applicant** (48 hours — it changes everything downstream)
-- [ ] Confirm WAGE permits co-applications, and in what form
+- [ ] **Confirm WAGE permits three co-applicants**, or whether the structure must
+      be one applicant with named partners
+- [ ] Get ResQ's charitable number and proof of incorporation
+- [ ] Establish whether ResQ runs girls- or young-women-specific programming —
+      it would materially strengthen the consortium's "experience advancing
+      equality for women"
 - [ ] Confirm each partner's "experience advancing equality for women" — WAGE
       requires it of applicants, and it is the one criterion ACBN meets least
       directly
