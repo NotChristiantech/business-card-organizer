@@ -1,6 +1,7 @@
 ---
 id: wage-womens-economic-leadership-2026
 applicant: acbn
+co_applicants: [black-womens-collective, new-life-project]
 funder: wage
 program: Women's Economic and Leadership Opportunities Fund 2026
 stage: prospect
@@ -14,7 +15,7 @@ watch:
   from_domains: [cfc-swc.gc.ca, femmes-egalite-genres.gc.ca, canada.ca]
   subject_terms: ["Women's Economic and Leadership", "WAGE", "Advancing Leadership"]
 tags: [women, leadership, systemic-change, federal, priority]
-needs_verification: [assessment_criteria, concept_choice, reach_level, lead_applicant]
+needs_verification: [assessment_criteria, reach_level, lead_applicant, partner_incorporation]
 ---
 
 # WAGE — Women's Economic and Leadership Opportunities Fund 2026
@@ -73,138 +74,155 @@ organizations. As lead applicant ACBN starts behind.
 This is Ryan's call, not a drafting detail, and it should be made in the first
 48 hours because it changes who writes what.
 
-## Three concepts
+## The concept: The Qualification Gap
 
-Each is built from the five systemic change approaches and from partnerships
-that already exist (`../library/partners.md`). None is service delivery.
+**Combining Concepts A and C**, with **Black Women's Collective** and **New Life
+Project** as co-applicants (Ryan's direction, 2026-09-04).
 
----
+The earlier three concepts are preserved in git history if needed.
 
-### Concept A — Rewriting how capital gets adjudicated
+### Why this is one project, not two stapled together
 
-**Systemic approaches:** redistributing resources · modifying policies and
-practices · shifts in authority and decision-making power
-**WAGE priority:** wage gaps and economic opportunity
-**Reach:** regional ($1M) or pan-Canadian ($1.4M) with the right partners
+A and C looked like different projects — capital adjudication and AI-economy
+procurement. They are the same mechanism operating at two gates:
 
-**The problem, in ACBN's own evidence.** 75% of Black entrepreneurs cannot
-secure even $10,000 (Abacus, for the African Canadian Senate Group). Less than
-1% of venture funding reaches Black women founders. ACBN's own survey found 71%
-of its founders unregistered or sole proprietors — which excluded them from the
-$962M Regional Recovery Relief Fund because it required incorporation. A neutral
-rule producing an inequitable outcome: the "inequity, not inequality" argument
-from `../library/theory-of-change.md`, with receipts.
+> **Institutions decide who is "qualified" using criteria that Black women-owned
+> micro-enterprises structurally cannot meet.** Lenders call it *creditworthiness*.
+> Buyers call it *supplier qualification*. It is the same exclusion, applied
+> twice.
 
-**The systemic lever.** Not another loan fund — that is redistributing money to
-individuals, and it is ineligible. Instead: **change the adjudication criteria
-that lenders apply.** ACBN runs the only Black-led microloan program in Ontario
-and therefore holds something almost nobody else has — a working, tested
-adjudication model built for founders that mainstream credit scoring rejects.
+And the two gates lock each other:
 
-**Activities.** Convene lenders (Alterna, Vancity, FACE Coalition, Woveo, BDC,
-credit unions); analyse where standard credit adjudication and scoring
-systematically disadvantage Black women founders; co-develop an open adjudication
-standard; secure written commitments from institutions to adopt or pilot it;
-publish and track adoption.
+- A lender wants demonstrated revenue and contract history before extending credit
+- A buyer wants capacity, insurance and scale before awarding a contract
+- **You need contracts to qualify for capital, and capital to qualify for
+  contracts**
 
-**Why ACBN is credible here.** Existing lending relationships with **Alterna**
-(banker, prior grant funder) and **Vancity** (just lent ACBN $150,000). Ryan is
-**Board President of the Canadian CED Network**, which gives national convening
-reach. ACBN's microloan experience is the practitioner evidence.
+That circularity is the project's theory of change. Attack one gate and a
+business escapes halfway. Attack both and the cycle breaks. This is a genuine
+systemic argument, and it is far stronger than either half alone — a reviewer
+asking "why these two things together?" has a one-sentence answer.
 
-**Strongest of the three.** It sits closest to what ACBN actually knows, it is
-unambiguously systemic, and the deliverable — an adopted standard — is a
-measurable institutional change rather than a count of people served.
+It also sits squarely inside `../library/theory-of-change.md`: neutral criteria
+producing inequitable outcomes is **inequity, not inequality**, and ACBN has the
+receipts — 71% of its founders unregistered or sole proprietors, which excluded
+them from the $962M Regional Recovery Relief Fund because it required
+incorporation.
 
----
+### Working title
 
-### Concept B — Board seats: changing who decides
+**The Qualification Gap: Rewriting the Criteria that Exclude Black Women-Owned
+Businesses from Capital and Contracts**
 
-**Systemic approaches:** shifts in authority and decision-making power ·
-modifying policies and practices · increasing networks
-**WAGE priority:** women's access to leadership positions
-**Reach:** regional ($1M)
+### Systemic change approaches
 
-**The problem.** Black women are absent from the boards that allocate capital
-and set policy in the very sectors that serve their communities — credit unions,
-foundations, economic development agencies, community housing.
+Maps to four of WAGE's five, without strain:
 
-**The systemic lever, and the trap to avoid.** Training Black women for
-governance is **capacity building — ineligible**. The eligible version acts on
-the *institutions*: change how boards recruit and nominate. Work with a cohort of
-Ontario institutions to rewrite nomination criteria, remove the informal-network
-dependency in board recruitment, publish a shared candidate registry, and secure
-board-seat commitments with public reporting on composition.
+| Approach | How |
+|---|---|
+| Modifying policies and practices | Rewriting adjudication and supplier-qualification criteria |
+| Redistributing resources | Capital and contracts reaching businesses previously screened out |
+| Shifts in authority and decision-making power | Changing *who decides* what counts as qualified, and on whose evidence |
+| Increasing networks and collaboration | A standing table of lenders and buyers that did not previously exist |
 
-Every activity must be describable as something a board does differently.
+Nothing here is service delivery, capacity building, or participant fees. Every
+activity ends in an institution behaving differently.
 
-**Partners.** Canadian CED Network (Ryan is Board President — a national network
-of exactly the institutions being targeted), Alterna Savings, Dream Legacy
-Foundation, Jean Augustine Centre for Girls, Black Opportunity Fund, ResQ Youth
-International, Rest Centres.
+### Work packages
 
-**Risk.** The most credible lead here is a women's organization, not ACBN. This
-is the concept where partnering — or ceding the lead — matters most.
-
----
-
-### Concept C — Black women in the AI economy
-
-**Systemic approaches:** changing norms and attitudes · modifying policies and
-practices · networks and collaboration
-**WAGE priority:** opportunities for women in an AI-driven economy *(explicitly
-named)*
-**Reach:** regional ($1M) or pan-Canadian ($1.4M)
-
-**The problem, and ACBN's unique evidence.** ACBN's survey found **70% of its
-founders are in traditional service-based, low-tech companies** — simultaneously
-the most exposed to AI displacement and the least positioned to capture its
-gains. Black women-owned businesses are largely absent from AI supply chains and
-from the procurement that is building them.
-
-**The systemic lever.** Not teaching AI skills — that is capacity building and
-ineligible. Instead: **change procurement and supplier-qualification practices**
-so Black women-owned businesses can enter AI and digital supply chains, and
-produce the sector research that makes the exclusion visible and quotable.
-
-**Activities.** Research with Sheridan College EDGE (an established ACBN research
-partner) on Black women's position in the AI economy; work with public and
-corporate buyers to modify supplier qualification thresholds that exclude
-micro-enterprises; publish a standard; secure procurement commitments.
-
-**Why now.** WAGE names the AI economy explicitly, and ACBN has a **FedDev
-Regional AI Initiative application already in flight** — the thinking is
-underway. Note the overlap and make sure the two applications complement rather
-than duplicate, because funders do notice.
-
-**Partners.** Sheridan College EDGE, DMZ, W.E.A.N. (built a VR mental-health
-platform, so genuine technical delivery), ISED contacts, Canadian CED Network.
-
----
-
-## Recommendation
-
-**Concept A**, at regional reach ($1M), with a Black women's organization as
-co-applicant or lead.
-
-It is the only one of the three where ACBN's distinctive asset — a working
-Black-led adjudication model and live relationships with two lenders — is the
-core of the project rather than context. It converts ACBN's weakest framing
-("we serve women too") into its strongest ("we already do this, and here is how
-to make institutions do it").
-
-**Concept C** is the strongest fallback: WAGE names AI explicitly, few applicants
-will have primary data on the affected population, and Sheridan is already a
+**WP1 — Evidence (months 1–12).** Document how credit adjudication and supplier
+qualification exclude Black women-owned businesses. Sources: ACBN's microloan
+adjudication records (the only Black-led microloan program in Ontario), a new
+survey building on ACBN's 1,014-founder study, and partner institutions' own
+criteria. Research partner: **Sheridan College EDGE**, an established ACBN
 research partner.
+
+**WP2 — The capital gate (months 6–42).** Convene lenders — **Alterna Savings**
+(ACBN's bank and a past funder), **Vancity** (lent ACBN $150,000 in 2026), FACE
+Coalition, Woveo, BDC. Co-develop an open adjudication standard for Black
+women-owned micro-enterprises. Secure written adoption or pilot commitments.
+
+**WP3 — The contract gate (months 12–48).** Convene public and corporate buyers.
+Identify the supplier-qualification thresholds — insurance minimums, revenue
+history, certification requirements — that exclude micro-enterprises from digital
+and AI supply chains. Negotiate modified thresholds and secure procurement
+commitments.
+
+**WP4 — Adoption and accountability (months 36–60).** Publish both standards,
+track institutional adoption, report publicly on what changed. Roll out through
+the **Canadian CED Network** (Ryan is Board President) and the 40+ partner
+organizations.
+
+### Why the AI framing belongs in WP3, not as decoration
+
+WAGE names *"opportunities for women in an AI-driven economy"* as a priority, and
+ACBN holds the sharpest available evidence: **70% of its founders are in
+traditional service-based, low-tech companies** — simultaneously the most exposed
+to AI displacement and the least positioned to capture its gains.
+
+The procurement argument is where AI becomes concrete rather than fashionable:
+the AI supply chain is being built now, qualification thresholds are being set
+now, and once they harden they will exclude this population for a decade. That is
+a genuine "why now".
+
+Cross-check against the live **FedDev Regional AI Initiative** application so the
+two complement rather than duplicate — funders do notice.
+
+### Partners and roles
+
+| Organization | Role | Brings |
+|---|---|---|
+| **Black Women's Collective** | Co-applicant, possibly **lead** | The women's-organization mandate WAGE prioritizes |
+| **ACBN** | Co-applicant / delivery | $4.8M track record, Black-led microloan adjudication model, lender relationships, primary research, CCEDNet reach |
+| **New Life Project** | Co-applicant / delivery | Prior delivery with ACBN — $21,000 SBCCI secured on their behalf |
+| Sheridan College EDGE | Research partner | WP1 evidence base; existing ACBN research relationship |
+| Alterna, Vancity, FACE, Woveo | Institutional participants | The lenders whose criteria change |
+| Canadian CED Network | Dissemination | National network of the institutions being targeted |
+
+### Recommendation on lead applicant
+
+**Black Women's Collective should lead if it is incorporated and can hold a
+multi-year federal agreement.**
+
+WAGE prioritizes women's organizations. BWC in the lead removes ACBN's single
+largest competitive weakness on this call, and ACBN loses nothing substantive —
+it remains a co-applicant with the largest delivery role and the strongest track
+record in the consortium.
+
+The trade-off is real and Ryan's to weigh: lead applicant usually holds the
+agreement, the administrative allocation, and the relationship with the funder.
+
+### Reach and amount
+
+**Regional / provincial / interprovincial — up to $1,000,000**, over 48–60 months.
+
+Pan-Canadian ($1.4M) requires impact in four WAGE regions **and** delivery in
+both official languages. In 11 days, with partner incorporation unconfirmed,
+that is not a credible commitment — and over-claiming reach is a straightforward
+way to lose. Confirm each partner's province: if they span provinces, the
+interprovincial band still sits at $1,000,000.
+
+### Risks to name in the application before a reviewer does
+
+| Risk | Mitigation |
+|---|---|
+| Institutions engage but do not change | Written commitments at the outset; publish adoption tracking; the standing table creates peer pressure |
+| Two gates is too broad for one project | The circularity argument — the gates lock each other, so attacking one is what fails |
+| Three-organization consortium coordination | ACBN's partner-management model from the BEP award (`../library/partners.md`): weekly check-ins, monthly reporting, quarterly strategy, and a named path if a partner cannot deliver |
+| Procurement thresholds are set by policy, not goodwill | Target buyers with discretion over supplier qualification; use CCEDNet for the policy layer |
 
 ## Before drafting — in this order
 
 - [ ] **Get the "How to develop your application" page and the assessment
       criteria.** ACBN's federal losses turn on scored narrative; drafting blind
       to the rubric repeats exactly that mistake
+- [ ] **Confirm Black Women's Collective is incorporated** with proof — if not,
+      it cannot be an applicant and the lead question resolves by default
 - [ ] **Decide the lead applicant** (48 hours — it changes everything downstream)
-- [ ] Confirm whether co-applications are permitted
-- [ ] Pick one concept and drop the others; 11 days does not allow hedging
+- [ ] Confirm WAGE permits co-applications, and in what form
+- [ ] Confirm each partner's "experience advancing equality for women" — WAGE
+      requires it of applicants, and it is the one criterion ACBN meets least
+      directly
 - [ ] Confirm the reach level, and for pan-Canadian whether four WAGE regions and
       both official languages are genuinely achievable
 - [ ] Line up letters of support (`../corpus-index.md` has the existing library)
