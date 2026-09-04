@@ -1,7 +1,8 @@
 ---
 id: wage-womens-economic-leadership-2026
 applicant: acbn
-co_applicants: [black-womens-collective, new-life-project]
+co_applicants: [new-life-project]
+collaborators: [black-womens-collective]
 funder: wage
 program: Women's Economic and Leadership Opportunities Fund 2026
 stage: prospect
@@ -15,7 +16,7 @@ watch:
   from_domains: [cfc-swc.gc.ca, femmes-egalite-genres.gc.ca, canada.ca]
   subject_terms: ["Women's Economic and Leadership", "WAGE", "Advancing Leadership"]
 tags: [women, leadership, systemic-change, federal, priority]
-needs_verification: [assessment_criteria, reach_level, lead_applicant, partner_incorporation]
+needs_verification: [assessment_criteria, reach_level, womens_org_partner]
 ---
 
 # WAGE — Women's Economic and Leadership Opportunities Fund 2026
@@ -176,42 +177,50 @@ two complement rather than duplicate — funders do notice.
 
 | Organization | Role | Brings |
 |---|---|---|
-| **Black Women's Collective** | Co-applicant, possibly **lead** | The women's-organization mandate WAGE prioritizes |
-| **ACBN** | Co-applicant / delivery | $4.8M track record, Black-led microloan adjudication model, lender relationships, primary research, CCEDNet reach |
+| **ACBN** | **Lead applicant** | $4.8M track record, Black-led microloan adjudication model, lender relationships, primary research, CCEDNet reach |
+| **Black Women's Collective** | Collaborator / advisory — **not an applicant** | A Black women-owned business: the population the project serves, given a voice in rewriting the criteria |
 | **New Life Project** | Co-applicant / delivery | Incorporated not-for-profit (confirmed), so eligible as an applicant; prior delivery with ACBN — $21,000 SBCCI secured on their behalf |
 | Sheridan College EDGE | Research partner | WP1 evidence base; existing ACBN research relationship |
 | Alterna, Vancity, FACE, Woveo | Institutional participants | The lenders whose criteria change |
 | Canadian CED Network | Dissemination | National network of the institutions being targeted |
 
-### Recommendation on lead applicant
+### Lead applicant — settled: ACBN leads
 
-Two things now pull against each other, and both are real:
+Black Women's Collective is a **for-profit business** (confirmed 2026-09-04).
+WAGE requires applicants to be not-for-profit, so BWC cannot lead or co-apply.
+The question resolves by default:
 
-- **Priority argues for Black Women's Collective to lead.** WAGE prioritizes
-  women's organizations, and that is ACBN's one remaining competitive weakness
-  on this call.
-- **Capability argues for ACBN to lead.** Ryan's assessment (2026-09-04) is that
-  ACBN has stronger infrastructure than New Life Project, and the record supports
-  it: $4.8M administered, two FedDev rounds, repeat federal reporting accepted.
-  A 60-month, $1M federal agreement is a serious administrative load.
+- **ACBN — lead applicant.** Incorporated not-for-profit, strongest
+  infrastructure, $4.8M administered, repeat federal reporting accepted.
+- **New Life Project — co-applicant.** Incorporated not-for-profit, with
+  documented prior delivery alongside ACBN.
+- **BWC — collaborator and advisory, with a letter of support.** Genuinely
+  valuable, just not as an applicant. Read `../orgs/black-womens-collective.md`
+  before contemplating any payment to them.
 
-**Preferred structure, if WAGE permits it:** Black Women's Collective as lead
-applicant, ACBN carrying the largest delivery role and the administrative
-backbone with the corresponding budget share.
+### The consequence: the women's-organization gap is now unmitigated
 
-**Confirm this is allowed before building on it.** Some federal agreements
-require the lead applicant to hold the agreement and its reporting obligations
-directly, which would put the load on whichever organization leads. If WAGE
-works that way, the choice becomes a genuine trade-off between priority
-standing and delivery capability — and given ACBN's federal reporting record,
-capability may be the better bet.
+Partnering with a women's organization was the plan to answer ACBN's one
+remaining competitive weakness, and it has gone. WAGE **prioritizes women's
+organizations**; ACBN is a Black business network with a majority-women
+constituency, and New Life Project is not a women's organization either.
 
-Ryan's call. It needs making in the first 48 hours because it determines who
-writes what.
+**Highest-priority action in the next 48 hours: recruit one incorporated
+not-for-profit women's organization as co-applicant.** Candidates from the
+archive, in order:
 
-**Still unanswered: is Black Women's Collective incorporated?** If not, it cannot
-be an applicant at all and this resolves by default — ACBN leads, with BWC as a
-named delivery partner.
+1. **Jean Augustine Centre for Girls** — two working folders already exist
+   (`1FTxeNoQ_lFLOaqNLuAO2Z9__GcvtyAkr`, `1aNdqiCDReSsHHYnqv_QQ9KSoSIdETnjA`), so
+   there is a relationship to build on. Named for a Black woman parliamentarian,
+   serving girls and women. The strongest fit available.
+2. **Pitch Better / FoundHers Innovation Labs** — Black women founders, already
+   in Ryan's network. Confirm not-for-profit status.
+3. **ResQ Youth International** — woman-led with charitable status, though
+   youth-focused rather than a women's organization.
+
+Without one, ACBN submits against the fund's stated priority with nothing
+offsetting it. Not fatal — GBA Plus makes the analytical case strong — but it is
+the single biggest thing still fixable before the deadline.
 
 ### Reach and amount
 

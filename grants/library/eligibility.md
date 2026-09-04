@@ -74,9 +74,34 @@ The registered objects are business-network focused (see `../orgs/acbn.md`).
 Whether the affordable-housing work sits within them is an open question worth
 putting to counsel, since ACBN is the applicant on housing funding.
 
-## 5. Which entity is applying
+## 5. For-profit partners cannot be applicants
 
-Ryan operates several organizations. Eligibility turns on picking the right one:
-ACBN (non-charitable nonprofit), Detailing Knights Canada Inc. (for-profit),
-Knighthood Academy, Empowered 4x, Sir Ryan Knight Consulting. Client orgs have
-their own status — check `../orgs/`.
+Most grant programs — WAGE included — restrict applicants to **not-for-profit
+organizations**. A for-profit collaborator can be named, can advise, and can
+sometimes be contracted, but cannot be an applicant or co-applicant.
+
+Check partner status **before** designing an application around them. On the WAGE
+call this cost a planned co-applicant late in the process: Black Women's
+Collective turned out to be a for-profit business, which removed the
+women's-organization positioning the application was built on.
+
+Ask one question of every proposed partner, first: **"Are you an incorporated
+not-for-profit, and can you send proof?"**
+
+What a for-profit partner can still do:
+
+- Named collaborator with a letter of support — clean, no eligibility exposure
+- Advisory or steering-group role, giving the affected population a voice
+- Contracted service provider, with care: funders scrutinise contracts to a
+  for-profit named in the application, and rules commonly limit private profit
+  from grant funds
+
+## 6. Which entity is applying
+
+Ryan operates several organizations, and eligibility turns on picking the right
+one: ACBN (non-charitable not-for-profit — the usual applicant), Detailing
+Knights Canada Inc. (for-profit, **not** grant-eligible), Knighthood Academy,
+Empowered 4x, Sir Ryan Knight Consulting (for-profit).
+
+Partner and client organizations each have their own status; `../orgs/` records
+it, with `grant_eligible: false` on any that cannot apply.
