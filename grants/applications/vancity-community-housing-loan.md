@@ -6,14 +6,14 @@ program: Pre-Development Loan — Springbank Affordable Housing Development
 stage: awarded
 outcome: awarded
 amount_requested: null
-amount_awarded: null
+amount_awarded: 150000
 deadline: null
 owner: ryan
 watch:
   from_domains: [vancity.com, vancitycommunityfoundation.ca]
   subject_terms: ["Vancity", "Community Housing Loan"]
 tags: [housing, debt]
-needs_verification: [amount_awarded, terms, repayment_schedule]
+needs_verification: [rate, term, security, repayment_schedule]
 ---
 
 # Vancity — Community Housing Loan
@@ -45,7 +45,7 @@ Two practical consequences:
 
 ## Next actions
 
-- [ ] Record the amount, rate, term, security and covenants
+- [ ] Record the rate, term, security and covenants ($150,000 confirmed)
 - [ ] Put the repayment schedule on the ACBN calendar
 - [ ] Confirm the board is aware of the obligation
 - [ ] Note the liability where applications ask about financial position

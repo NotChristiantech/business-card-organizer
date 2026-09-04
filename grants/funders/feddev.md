@@ -8,28 +8,42 @@ typical_cycle: per-call
 watch:
   from_domains: [feddev-ontario.canada.ca, canada.ca, ised-isde.gc.ca]
   subject_terms: ["FedDev", "Black Entrepreneurship Program", "Ecosystem Fund", "BEP"]
-needs_verification: [bep_2_amount, bep_2_reporting_schedule, raii_status]
+needs_verification: [bep_2_reporting_schedule, raii_status]
 ---
 
 # FedDev Ontario
 
 ## Why this funder matters most
 
-The **Black Entrepreneurship Program (BEP) Ecosystem Fund** is the source of
-ACBN's largest recorded award: **$1,315,000**. It is the single strongest proof
-point in the track record and the anchor of any large ask.
+**FedDev is 94% of ACBN's confirmed funding — $3,315,000 of $3,538,000.**
+Nothing else is close.
 
-## Current — BEP 2.0 WON
+| Round | Year | Amount |
+|---|---|---|
+| BEP Ecosystem Fund, round one | 2021 | $1,315,000 |
+| BEP Ecosystem Fund, round two | 2026 | **$2,000,000** (to 31 Mar 2029) |
 
-Confirmed 2026-09-03. The largest award in ACBN's history has renewed.
+Plus the Community Revitalization Fund ($500,000, deck-sourced).
 
-This makes FedDev unambiguously ACBN's most important funder: BEP 1.0
-($1,315,000), the Community Revitalization Fund ($500,000), BEP 2.0, and an open
-Regional AI Initiative application. Protecting this relationship outranks almost
-anything else in the portfolio.
+**The second round is 52% larger than the first.** That is the most valuable
+sentence in this entire repository: a federal agency reviewed a completed
+project and raised its investment by half. Use it whenever a funder asks about
+capacity, risk or past performance — it is a third-party judgment on delivery
+that no self-description can match.
 
-The work now is **reporting**, and it is not administrative. BEP 1.0's reporting
-is what won BEP 2.0; BEP 2.0's reporting decides whether there is a third round.
+## Current — BEP 2.0 won, $2,000,000, running to 31 March 2029
+
+ACBN's largest award ever, and roughly 2.5 years of runway — the longest in its
+history.
+
+**Protecting this relationship outranks everything else in the portfolio.** On
+the numbers, losing FedDev would cost more than every other funder combined.
+
+The work now is **reporting**, and it is strategic rather than administrative:
+round one's reporting won round two, and round two's will decide round three. It
+is also the only realistic route to the outcome evidence the rest of the
+portfolio lacks (`../library/reach-and-impact.md`), so doing it well solves two
+problems at once.
 
 ## Also open
 

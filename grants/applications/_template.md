@@ -13,6 +13,7 @@ deadline: null
 submitted: null
 decision_expected: null
 decision_date: null
+award_year: null      # when only the year is known (common for historical awards)
 confirmation: null
 portal_url: null
 portal_account: null   # email only, never a password

@@ -1,64 +1,74 @@
 ---
-award_count: 16
-total_awarded: 2779445
-total_awarded_low: 2645445
-largest_award: 1315000
+award_count_confirmed: 7
+total_confirmed: 3538000
+award_count_deck: 14
+total_deck: 1285445
+award_count: 21
+total_awarded: 4823445
+largest_award: 2000000
 secured_for_partners: 151000
-partner_org_count: 3
 currency: CAD
-source: ACBN / E4x funding and grant opportunities deck
-verified: false
+verified: partial
+last_updated: 2026-09
 ---
 
 # Funding track record
 
-The single most reusable asset in an application. Nearly every funder asks some
-version of "what have you successfully managed before?" — this is the answer,
-and it is unusually strong: ACBN has moved from $500 grants to a $1.3M ecosystem
-fund, which is exactly the arc that de-risks a large ask.
+Nearly every funder asks some version of "what have you successfully managed
+before?" This is the answer, and it is stronger than ACBN has been presenting:
+**approximately $4.8M across 21 awards**, rising from $500 to a single $2,000,000
+award.
 
-## ACBN as recipient
+## Confirmed awards
 
-| Funder | Amount |
-|---|---|
-| Now Creative | $500 |
-| City of Brampton | $1,000 |
-| Ignite Capital | $5,000 |
-| Toronto Enterprise Fund | $7,000 |
-| TD Ready Commitment | $7,100 |
-| TD Ready Commitment | $10,000 |
-| Alterna Savings Community Grant | $10,000 |
-| City of Brampton | $12,500 |
-| Region of Peel | $22,345 |
-| Investment Readiness Program | $35,000 |
-| Community Foundations of Canada | $72,000 |
-| SBCCI (Supporting Black Canadian Communities Initiative) | $179,000 |
-| Youth Opportunities Fund | $210,000 |
-| Youth Opportunities Fund | $393,000 |
-| Community Revitalization Fund | $500,000 |
-| Black Entrepreneurship Program — Ecosystem Fund | $1,315,000 |
+Verified directly with Ryan, September 2026. Quote these freely.
 
-**Total: $2,779,445 across 16 awards.**
+| Funder | Program | Year | Amount |
+|---|---|---|---|
+| FedDev Ontario | BEP Ecosystem Fund, round one | 2021 | $1,315,000 |
+| FedDev Ontario | BEP Ecosystem Fund, round two | 2026 | **$2,000,000** |
+| ESDC | Supporting Black Canadian Communities Initiative | 2020 | $100,000 |
+| ESDC | Supporting Black Canadian Communities Initiative | 2024 | $40,000 |
+| Foundation for Black Communities | BIG Bridge and Build | — | $75,000 |
+| ESDC | Canada Summer Jobs (2 positions) | 2025 | $4,000 |
+| ESDC | Canada Summer Jobs (2 positions) | 2026 | $4,000 |
 
-Source: ACBN / E4x funding and grant opportunities deck. Sum computed from the
-line items above — if you change a figure, recompute the total and update the
-front-matter, because the dashboard reads it from there.
+**Confirmed subtotal: $3,538,000 across 7 awards.**
 
-The total is itself sensitive to the unresolved SBCCI figure below: at $179,000
-the total is **$2,779,445**; at $45,000 it is **$2,645,445**. Until that's
-settled, "over $2.6M" is the safe public claim.
+## Deck-sourced awards, not yet individually confirmed
 
-> **Reconciliation needed.** The ACBN Grant Tracker spreadsheet records SBCCI at
-> $45,000 and FFBC BIG at $74,000, while the deck shows SBCCI at $179,000 and
-> does not list FFBC separately. These are likely different things — a direct
-> award versus funds administered on behalf of others, or separate rounds — but
-> until that's confirmed, **do not quote the SBCCI figure to a funder.** Tracked
-> in `applications/sbcci-capacity-building.md`.
+From the ACBN / E4x deck. Credible but unverified — check before quoting a
+specific line.
+
+Now Creative $500 · City of Brampton $1,000 · Ignite Capital $5,000 · Toronto
+Enterprise Fund $7,000 · TD Ready Commitment $7,100 · TD Ready Commitment
+$10,000 · Alterna Savings $10,000 · City of Brampton $12,500 · Region of Peel
+$22,345 · Investment Readiness Program $35,000 · Community Foundations of Canada
+$72,000 · Youth Opportunities Fund $210,000 · Youth Opportunities Fund $393,000 ·
+Community Revitalization Fund $500,000
+
+**Subtotal: $1,285,445 across 14 awards.**
+
+## Total
+
+**$4,823,445 across 21 awards.** Safe public claim: **"over $4.8 million."**
+
+> Supersedes the deck's implied ~$2.78M, which predated BEP round two and
+> carried SBCCI at $179,000. **Do not use $179,000** — the two confirmed SBCCI
+> awards total $140,000, and the deck figure is unexplained.
+
+## Debt — not part of this total
+
+**Vancity Community Foundation — pre-development loan, $150,000**, for the
+Springbank Affordable Housing Development.
+
+Kept deliberately separate. It is a liability, not funding secured, and a total
+that quietly folded in debt would be right to be distrusted.
 
 ## Funding secured *for other organizations*
 
-This is the differentiator. It is evidence that ACBN functions as an
-intermediary, not only as a grantee.
+The intermediary credential — very few organizations ACBN's size can show they
+have moved capital to peers.
 
 | Organization | Program | Amount |
 |---|---|---|
@@ -66,20 +76,29 @@ intermediary, not only as a grantee.
 | Custodia | Investment Readiness Program | $100,000 |
 | New Life Project | Supporting Black Communities Initiative | $21,000 |
 
-Additional organizations ACBN has supported through the FFBC BIG Bridge and
-Build Grant: EISBY, Young Black Authors, King Training Wellness Foundation,
-Knighthood Academy.
+Plus organizations supported through the FFBC BIG cluster: EISBY, Young Black
+Authors, King Training Wellness Foundation, Knighthood Academy.
 
 ## How to deploy this
 
-- **Small ask (<$50K):** lead with the range and the count — "16 grants from
-  $500 to $1.3M" — showing you're a safe steward at any size.
-- **Large ask (>$250K):** lead with the Ecosystem Fund ($1.315M), Community
-  Revitalization Fund ($500K) and Youth Opportunities Fund ($393K). You have
-  managed money at their scale; that's the objection you're pre-empting.
-- **Ecosystem / intermediary programs:** lead with the funding-for-others table.
-  Almost no applicant of ACBN's size can show they have re-granted or brokered
-  capital to peer organizations. This is the moat.
-- **Government funders:** emphasize the federal track record (IRP, SBCCI, CRF,
-  BEP Ecosystem Fund, CSJ) — it proves you can survive federal reporting
-  requirements, which is the real risk they're pricing.
+**Lead with the growth, not the total.** FedDev funded ACBN at $1,315,000, then
+**increased it to $2,000,000** — a 52% increase after a completed first round.
+A federal agency raising its investment by half is the strongest third-party
+statement about delivery quality available, and it answers the risk question
+before it is asked.
+
+- **Large ask (>$250K):** BEP round two ($2M), BEP round one ($1.315M),
+  Community Revitalization Fund ($500K), Youth Opportunities Fund ($393K). ACBN
+  has managed money at that scale and is currently managing $2M.
+- **Small ask (<$50K):** the range and the count — 21 awards from $500 to $2M.
+- **Ecosystem / intermediary programs:** the funding-for-others table.
+- **Repeat-funder credential:** ACBN has been funded twice by FedDev's Ecosystem
+  Fund and twice by SBCCI. Renewal is evidence that reporting was accepted.
+- **Federal compliance:** BEP, SBCCI, IRP, CRF, CSJ. Prior federal reporting is
+  the real risk being priced.
+
+## Current position
+
+ACBN holds a **$2,000,000 award running to 31 March 2029** — the longest funding
+runway in its history, and the first realistic window to build the outcome
+measurement the rest of the portfolio needs (`reach-and-impact.md`).

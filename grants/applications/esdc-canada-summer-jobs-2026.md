@@ -6,7 +6,8 @@ program: Canada Summer Jobs 2026
 stage: closed
 outcome: awarded
 amount_requested: null
-amount_awarded: null
+amount_awarded: 4000
+positions_funded: 2
 currency: CAD
 opened: null
 deadline: null
@@ -19,7 +20,7 @@ watch:
   from_domains: [servicecanada.gc.ca, canada.ca]
   subject_terms: ["Canada Summer Jobs", "A001070969"]
 tags: [youth, employment, recurring]
-needs_verification: [amount_awarded, positions_funded]
+needs_verification: [amount_basis]
 ---
 
 # ESDC — Canada Summer Jobs 2026
@@ -54,3 +55,20 @@ brings youth capacity into the organization during the summer.
 - [ ] **Diary the CSJ 2027 opening now.** Two consecutive wins make this the
       most reliable money in the portfolio, the window is short and fixed, and
       it is by far the easiest application here to lose by missing a date
+
+## Amount — $4,000, 2 student positions
+
+Confirmed by Ryan for 2026.
+
+**One thing to pin down:** whether $4,000 is the total for both students or the
+amount per student. It is recorded here as the total, which is the plainer
+reading, but $2,000 per summer placement is low for a CSJ wage subsidy. Worth a
+30-second check against the funding agreement, because the figure appears in the
+track record.
+
+## Keep this in proportion
+
+CSJ is ACBN's most *reliable* money and among its smallest — about 0.2% of
+confirmed funding. It is worth the diary entry and almost none of the strategy.
+See `../library/win-loss-analysis.md`: counting applications makes ESDC look like
+a core funder, and weighting by dollars shows it is not.

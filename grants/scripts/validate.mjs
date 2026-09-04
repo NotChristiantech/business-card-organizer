@@ -50,6 +50,10 @@ for (const { file, data, body } of applications) {
 
   if (!STAGES.includes(data.stage)) errors.push(at(`stage '${data.stage}' is not one of: ${STAGES.join(', ')}`));
 
+  if (data.award_year != null && !/^\d{4}$/.test(String(data.award_year))) {
+    errors.push(at(`award_year '${data.award_year}' should be a four-digit year`));
+  }
+
   for (const field of ['opened', 'deadline', 'submitted', 'decision_expected', 'decision_date']) {
     const value = data[field];
     if (value == null || value === 'rolling') continue;

@@ -5,13 +5,13 @@ funder: ffbc
 program: BIG Bridge and Build Grant
 stage: closed
 outcome: awarded
-amount_awarded: null   # tracker says $74,000 — unverified, see body
+amount_awarded: 75000
 currency: CAD
 portal_url: https://blackcommunities.smapply.us/prog/
 portal_account: info@acbncanada.com
 owner: ryan
 tags: [black-communities, foundation, cluster, intermediary]
-needs_verification: [amount_awarded, which_entity_received, per_org_outcomes]
+needs_verification: [which_entity_received, per_org_outcomes]
 ---
 
 # FFBC — BIG Bridge and Build Grant (multi-organization cluster)
@@ -29,8 +29,9 @@ simultaneously, each under its own SmApply account:
 | King Training Wellness Foundation | kt929022@gmail.com | unrecorded |
 | Knighthood Academy | nytetyme2000@gmail.com | unrecorded |
 
-Recorded amount **$74,000**, marked completed. Which entity that figure belongs
-to is unrecorded.
+Amount confirmed by Ryan as **$75,000** (the tracker's $74,000 was close but
+not exact). Which of the five entities the award belongs to is still unrecorded —
+that remains the open question here.
 
 Related: `https://docs.google.com/document/d/1dr9Nm10LIJftFONyyCf97mSrl7H-gkUkFuRjIh5pugQ/edit`
 and a results spreadsheet at
