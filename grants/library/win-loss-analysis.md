@@ -27,7 +27,7 @@ Two things do survive the bias:
 
 ## Recorded outcomes
 
-**Confirmed value won: $3,538,000 across 7 awards** (plus $1,285,445 in
+**Confirmed value won: $3,546,000 across 7 awards** (plus $1,285,445 in
 deck-sourced awards not individually confirmed). See `track-record.md`.
 
 Sorted by value won — which is the order that matters.
@@ -38,21 +38,21 @@ Sorted by value won — which is the order that matters.
 | Vancity Community Foundation | 1 | 1 | $150,000 (loan) |
 | SBCCI | 2 | 0 | $140,000 |
 | Foundation for Black Communities | 1 | 0 | $75,000 |
-| ESDC | 2 | 3 | $8,000 |
+| ESDC | 2 | 3 | $16,000 |
 | Public Safety Canada | 0 | 2 | — |
 | Canadian Race Relations Foundation | 0 | 1 | — |
 
 **Won:** BEP Ecosystem Fund round two ($2,000,000) · BEP Ecosystem Fund round one
 ($1,315,000) · Vancity pre-development loan ($150,000, debt) · SBCCI 2020
 ($100,000) · FFBC BIG Bridge and Build ($75,000) · SBCCI 2024 ($40,000) · Canada
-Summer Jobs 2025 ($4,000) · Canada Summer Jobs 2026 ($4,000)
+Summer Jobs 2025 ($4,000) · Canada Summer Jobs 2026 ($8,000)
 
 **Lost:** Public Safety GCP-VOs ($500K ask) · National Crime Prevention Fund ·
 Vancity *Building the Blueprint* · CRRF Canada Race Relations Youth Event ·
 ESDC CIPAD · ESDC SDG Funding Program · ESDC Youth Employment
 
 Read that first row against the last two. **FedDev alone is 94% of confirmed
-funding.** ESDC has more applications than any other funder and produced 0.2%.
+funding.** ESDC has more applications than any other funder and produced 0.45%.
 
 ---
 
@@ -61,7 +61,7 @@ funding.** ESDC has more applications than any other funder and produced 0.2%.
 Confirmed award amounts (September 2026) changed this analysis, and it is worth
 being explicit about how.
 
-**Every dollar of confirmed funding but $8,000 came from a program explicitly
+**Every dollar of confirmed funding but $16,000 came from a program explicitly
 about Black economic participation:**
 
 | Program | Amount |
@@ -70,9 +70,9 @@ about Black economic participation:**
 | SBCCI, 2020 and 2024 | $140,000 |
 | FFBC BIG Bridge and Build | $75,000 |
 | **Black-economy-explicit subtotal** | **$3,530,000** |
-| ESDC Canada Summer Jobs, 2025 and 2026 | $8,000 |
+| ESDC Canada Summer Jobs, 2025 and 2026 | $16,000 |
 
-Canada Summer Jobs is **0.2%** of confirmed funding.
+Canada Summer Jobs is **0.45%** of confirmed funding.
 
 Every decline, meanwhile, is a program where ACBN's work had to be translated
 into someone else's agenda: crime prevention (twice), the Sustainable
@@ -92,13 +92,13 @@ An earlier version of this file led with a different pattern — that ACBN wins
 having two wins (both Canada Summer Jobs) against three losses.
 
 **That was an artifact of counting applications instead of weighting them.**
-Canada Summer Jobs is a $4,000 wage subsidy for two students. The genuinely large
+Canada Summer Jobs is an $8,000 wage subsidy for two students. The genuinely large
 wins — BEP at $1.315M then $2M, SBCCI, FFBC — are all *competitively assessed*.
 ACBN wins competitive programs routinely, and wins the biggest ones.
 
 Two lessons, and the second is the durable one:
 
-1. Counting applications treats a $4,000 wage subsidy and a $2,000,000 ecosystem
+1. Counting applications treats an $8,000 wage subsidy and a $2,000,000 ecosystem
    fund as equal events. **Weight by dollars.**
 2. This is the second pattern in this file to dissolve on contact with evidence
    (see the Vancity section below). Patterns here are hypotheses, not findings.
@@ -173,7 +173,7 @@ archive.
    route to the evidence competitive applications need.
 4. **Check charitable status before every foundation application** (`eligibility.md`).
 5. **Weight the pipeline hard toward mandate-explicit Black-economy programs.**
-   This is where $3.53M of $3.538M confirmed funding came from. Applications
+   This is where $3.53M of $3.546M confirmed funding came from. Applications
    requiring ACBN to translate its work into an adjacent agenda have a
    near-perfect record of failing, and they cost the same to write.
 6. **Protect the FedDev relationship above all.** Two rounds, $3.315M, and a 52%

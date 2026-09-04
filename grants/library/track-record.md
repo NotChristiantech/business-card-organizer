@@ -1,10 +1,10 @@
 ---
 award_count_confirmed: 7
-total_confirmed: 3538000
+total_confirmed: 3546000
 award_count_deck: 14
 total_deck: 1285445
 award_count: 21
-total_awarded: 4823445
+total_awarded: 4831445
 largest_award: 2000000
 secured_for_partners: 151000
 currency: CAD
@@ -30,10 +30,10 @@ Verified directly with Ryan, September 2026. Quote these freely.
 | ESDC | Supporting Black Canadian Communities Initiative | 2020 | $100,000 |
 | ESDC | Supporting Black Canadian Communities Initiative | 2024 | $40,000 |
 | Foundation for Black Communities | BIG Bridge and Build | — | $75,000 |
-| ESDC | Canada Summer Jobs (2 positions) | 2025 | $4,000 |
-| ESDC | Canada Summer Jobs (2 positions) | 2026 | $4,000 |
+| ESDC | Canada Summer Jobs (2 positions @ $4,000) | 2025 | $8,000 |
+| ESDC | Canada Summer Jobs (2 positions @ $4,000) | 2026 | $8,000 |
 
-**Confirmed subtotal: $3,538,000 across 7 awards.**
+**Confirmed subtotal: $3,546,000 across 7 awards.**
 
 ## Deck-sourced awards, not yet individually confirmed
 
@@ -51,7 +51,7 @@ Community Revitalization Fund $500,000
 
 ## Total
 
-**$4,823,445 across 21 awards.** Safe public claim: **"over $4.8 million."**
+**$4,831,445 across 21 awards.** Safe public claim: **"over $4.8 million."**
 
 > Supersedes the deck's implied ~$2.78M, which predated BEP round two and
 > carried SBCCI at $179,000. **Do not use $179,000** — the two confirmed SBCCI

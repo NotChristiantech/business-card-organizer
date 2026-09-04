@@ -5,12 +5,13 @@ funder: esdc
 program: Canada Summer Jobs 2025
 stage: closed
 outcome: awarded
-amount_awarded: 4000
+amount_awarded: 8000
 positions_funded: 2
+amount_per_position: 4000
 portal_url: https://srv136.services.gc.ca/OSR/pro/Project/Project/Index
 owner: ryan
 tags: [youth, employment, recurring]
-needs_verification: [amount_basis]
+needs_verification: []
 ---
 
 # ESDC — Canada Summer Jobs 2025
@@ -30,15 +31,10 @@ time-saving item in this backfill.
 - [ ] Record positions funded and total wage subsidy received
 - [ ] Note anything the 2026 application changed and why
 
-## Amount — $4,000, 2 student positions
+## Amount — $8,000 ($4,000 per student, 2 positions)
 
-Confirmed by Ryan for 2025.
-
-**One thing to pin down:** whether $4,000 is the total for both students or the
-amount per student. It is recorded here as the total, which is the plainer
-reading, but $2,000 per summer placement is low for a CSJ wage subsidy. Worth a
-30-second check against the funding agreement, because the figure appears in the
-track record.
+Confirmed by Ryan: **$4,000 per student**, two students, so **$8,000** for 2025.
+An earlier version of this record read it as $4,000 total; corrected.
 
 ## Keep this in proportion
 
