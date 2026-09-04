@@ -37,25 +37,29 @@ ineligible activity here.
 The test for every proposed activity: *does an institution behave differently
 afterwards?* If the answer is "a participant gained a skill", it is out.
 
-### 2. This is a mandate-adjacent application, and those have lost
+### 2. Mandate-adjacency — a warning I am revising down
 
-`../library/win-loss-analysis.md` is unambiguous: $3.53M of $3.546M confirmed
-funding came from programs *explicitly about Black economic participation*, and
-every recorded decline came from a program requiring ACBN to translate its work
-into an adjacent agenda — crime prevention, the SDGs, race relations, generic
-youth employment.
+An earlier version of this record warned that WAGE is a gender agenda rather
+than a Black-economy agenda, putting it in the category that has a near-perfect
+record of failing for ACBN ($3.53M of $3.546M confirmed funding came from
+Black-economy-explicit programs).
 
-**WAGE is a gender-equality agenda, not a Black-economy agenda.** On the base
-rate, this is the losing category.
+**GBA Plus substantially answers that objection.** The call directs applicants to
+the CSPS course on Gender-based Analysis Plus, and WAGE owns that framework for
+the federal government. GBA Plus is intersectional by construction — gender
+crossed with race, income, geography, business size. A project about **Black
+women entrepreneurs** is not a translation into someone else's agenda; it is the
+analysis WAGE's own framework demands. A gender-only project would be the
+*weaker* GBA Plus submission.
 
-The honest counter-argument: the translation here is better supported than any
-of those failures. ACBN's constituency is **74% women** and its own survey of
-1,014 founders is majority women. Crime prevention required an argued causal
-chain; this requires only pointing at who ACBN already serves. It is adjacent,
-but it is the least adjacent thing ACBN has attempted outside its core.
+See `../library/gba-plus.md`, including the argument that plays to ACBN's
+strength: GBA Plus depends on disaggregated data, that data barely exists for
+Black Canadians, and ACBN is one of the few organizations actively producing it.
 
-Go in with that clear-eyed, and make the intersection — Black **and** women —
-the whole application rather than a demographic footnote.
+**What still stands:** WAGE *prioritizes women's organizations*, and ACBN is not
+one. That is about applicant identity, not analytical fit, and it is why the
+lead-applicant question below still matters. The analytical objection is
+answered; the positioning one is not.
 
 ### 3. ACBN is not a women's organization, and the fund prioritizes those
 
@@ -174,23 +178,40 @@ two complement rather than duplicate — funders do notice.
 |---|---|---|
 | **Black Women's Collective** | Co-applicant, possibly **lead** | The women's-organization mandate WAGE prioritizes |
 | **ACBN** | Co-applicant / delivery | $4.8M track record, Black-led microloan adjudication model, lender relationships, primary research, CCEDNet reach |
-| **New Life Project** | Co-applicant / delivery | Prior delivery with ACBN — $21,000 SBCCI secured on their behalf |
+| **New Life Project** | Co-applicant / delivery | Incorporated not-for-profit (confirmed), so eligible as an applicant; prior delivery with ACBN — $21,000 SBCCI secured on their behalf |
 | Sheridan College EDGE | Research partner | WP1 evidence base; existing ACBN research relationship |
 | Alterna, Vancity, FACE, Woveo | Institutional participants | The lenders whose criteria change |
 | Canadian CED Network | Dissemination | National network of the institutions being targeted |
 
 ### Recommendation on lead applicant
 
-**Black Women's Collective should lead if it is incorporated and can hold a
-multi-year federal agreement.**
+Two things now pull against each other, and both are real:
 
-WAGE prioritizes women's organizations. BWC in the lead removes ACBN's single
-largest competitive weakness on this call, and ACBN loses nothing substantive —
-it remains a co-applicant with the largest delivery role and the strongest track
-record in the consortium.
+- **Priority argues for Black Women's Collective to lead.** WAGE prioritizes
+  women's organizations, and that is ACBN's one remaining competitive weakness
+  on this call.
+- **Capability argues for ACBN to lead.** Ryan's assessment (2026-09-04) is that
+  ACBN has stronger infrastructure than New Life Project, and the record supports
+  it: $4.8M administered, two FedDev rounds, repeat federal reporting accepted.
+  A 60-month, $1M federal agreement is a serious administrative load.
 
-The trade-off is real and Ryan's to weigh: lead applicant usually holds the
-agreement, the administrative allocation, and the relationship with the funder.
+**Preferred structure, if WAGE permits it:** Black Women's Collective as lead
+applicant, ACBN carrying the largest delivery role and the administrative
+backbone with the corresponding budget share.
+
+**Confirm this is allowed before building on it.** Some federal agreements
+require the lead applicant to hold the agreement and its reporting obligations
+directly, which would put the load on whichever organization leads. If WAGE
+works that way, the choice becomes a genuine trade-off between priority
+standing and delivery capability — and given ACBN's federal reporting record,
+capability may be the better bet.
+
+Ryan's call. It needs making in the first 48 hours because it determines who
+writes what.
+
+**Still unanswered: is Black Women's Collective incorporated?** If not, it cannot
+be an applicant at all and this resolves by default — ACBN leads, with BWC as a
+named delivery partner.
 
 ### Reach and amount
 
@@ -216,6 +237,10 @@ interprovincial band still sits at $1,000,000.
 - [ ] **Get the "How to develop your application" page and the assessment
       criteria.** ACBN's federal losses turn on scored narrative; drafting blind
       to the rubric repeats exactly that mistake
+- [ ] **Complete the CSPS GBA Plus course**
+      (`https://opn.csps-efpc.gc.ca/viewer/INC101-EN`) — the call points to it,
+      WAGE owns the framework, and it will shape a scored section. The public
+      version needs no federal login. See `../library/gba-plus.md`
 - [ ] **Confirm Black Women's Collective is incorporated** with proof — if not,
       it cannot be an applicant and the lead question resolves by default
 - [ ] **Decide the lead applicant** (48 hours — it changes everything downstream)

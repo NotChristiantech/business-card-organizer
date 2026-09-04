@@ -91,6 +91,19 @@ deliberately whether ACBN leads or partners with a Black women's organization
 that leads. See the strategy note in
 `../applications/wage-womens-economic-leadership-2026.md`.
 
+## GBA Plus is the analytical frame
+
+The call points applicants at the CSPS course **"Introduction to Gender-based
+Analysis Plus"** (`https://opn.csps-efpc.gc.ca/viewer/INC101-EN`). WAGE owns GBA
+Plus for the federal government, so this is a scored requirement rather than a
+reading suggestion.
+
+It also **materially improves ACBN's fit**. GBA Plus is intersectional by
+design — gender crossed with race, income, geography, business size. An
+organization working with Black women entrepreneurs is not translating itself
+into a gender agenda; it is doing exactly the analysis the department's own
+framework requires. See `../library/gba-plus.md`.
+
 ## Still needed
 
 The assessment criteria and scoring weights were not on the pages read. Get the

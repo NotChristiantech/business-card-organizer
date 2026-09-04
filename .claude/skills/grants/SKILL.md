@@ -68,19 +68,23 @@ what changed in the library, not a folder-by-folder narration.
 6. Pull evidence from `library/track-record.md` and `library/reach-and-impact.md`.
    Follow the deployment guidance in track-record.md — the argument changes with
    the size of the ask.
-7. For a needs statement, pull from `library/research/evidence-base.md` (external
+7. For any federal call touching gender or equity, read `library/gba-plus.md`.
+   GBA Plus is the government's required analytical frame, WAGE owns it, and
+   applications are scored on it. Its intersectional construction is why ACBN's
+   Black-and-women positioning is a strength rather than a stretch.
+8. For a needs statement, pull from `library/research/evidence-base.md` (external
    authority) and `library/research/acbn-own-research.md` (ACBN's own survey,
    the Ontario Public Service labour market assessment, and the Gibbs & Knight
    policy response). National statistic, then ACBN's primary data, then a
    concrete instance of harm.
-8. For anything ecosystem-, capacity- or equity-shaped, open from
+9. For anything ecosystem-, capacity- or equity-shaped, open from
    `library/theory-of-change.md`. That Afrocentric-paradigm argument is ACBN's
    most distinctive asset and it carried the $1.315M Ecosystem Fund. Name
    delivery partners from `library/partners.md`, confirming each is still active
    first.
-9. Follow `library/voice.md`. Claim, evidence, mechanism, stakes.
-10. Write the application record in `grants/applications/` as you go, not after.
-11. Flag every place the application needs a number ACBN doesn't have. Do not
+10. Follow `library/voice.md`. Claim, evidence, mechanism, stakes.
+11. Write the application record in `grants/applications/` as you go, not after.
+12. Flag every place the application needs a number ACBN doesn't have. Do not
    paper over the gap.
 
 After a decision lands — either way — return to the record and write the outcome

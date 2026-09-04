@@ -4,9 +4,10 @@ name: New Life Project
 short_name: New Life Project
 legal_name: null
 type: nonprofit
+incorporated: true
 country: CA
 relationship: client
-needs_verification: [legal_name, incorporation_status, charitable_status, base, province, leadership, contact]
+needs_verification: [legal_name, incorporation_number, charitable_status, base, province, leadership, contact]
 ---
 
 # New Life Project
@@ -27,10 +28,21 @@ Co-applicant or delivery partner on the WAGE Women's Economic and Leadership
 Opportunities Fund 2026
 (`../applications/wage-womens-economic-leadership-2026.md`).
 
+## Eligibility — confirmed incorporated
+
+Confirmed by Ryan (2026-09-04): New Life Project is an **incorporated
+not-for-profit**, so it clears WAGE's applicant test and can be a co-applicant
+rather than only a named partner.
+
+Ryan also notes **ACBN has stronger infrastructure**. That is the right read for
+who should *hold* a multi-year federal agreement and carry the reporting load —
+which is a separate question from whose mandate best fits the fund.
+
 ## Confirm before the application
 
-- [ ] Legal name as incorporated, and proof of incorporation
+- [ ] Legal name exactly as incorporated, and the incorporation number
 - [ ] Province and geographic reach
-- [ ] Experience advancing equality for women — required of every applicant
+- [ ] Experience advancing equality for women — WAGE requires this of every
+      applicant, and it is the criterion least automatic for a non-women's
+      organization
 - [ ] Leadership, contact and signing authority
-- [ ] Which role: co-applicant, or named partner
