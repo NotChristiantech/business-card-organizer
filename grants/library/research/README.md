@@ -37,6 +37,18 @@ itself, which is worth far more.
 | BOF Executive Summary and 100-Day Report | Black Opportunity Fund | `1VFJ5oS88BcYjc4YxCDXG8TpFfPX4cyVd` |
 | FACE 2023/2024 Annual Report | FACE Coalition | `1IlmgnP3Y1UjnTw_LZHsypBGbna1CgwZE` |
 
+### For-profit funding reference
+
+| Document | Source |
+|---|---|
+| Canadian startup funding landscape — `startup-funding-landscape.md` | lawyercorporation.ca |
+
+Covers SR&ED, IRAP, Innovative Solutions Canada, CSBFP, Futurpreneur, BDC and
+Ontario tax credits. ACBN cannot use these as a not-for-profit, but its clients,
+its for-profit entities and partners like Black Women's Collective can — and the
+qualification thresholds each program applies are evidence for the WAGE
+*Qualification Gap* project.
+
 ## Ingest status
 
 The two ACBN Review documents and the Study Guide have been read and distilled

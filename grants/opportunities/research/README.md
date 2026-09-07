@@ -37,6 +37,12 @@ cold.
 **Aggregators** — Pocketed digest, GrantConnect (Imagine Canada), Ontario
 Nonprofit Network.
 
+**For ACBN's clients, not ACBN** — SR&ED, NRC IRAP, Innovative Solutions Canada,
+Canada Small Business Financing, Futurpreneur, BDC, Ontario tax credits. ACBN is
+ineligible as a not-for-profit, but these are what its microloan and accelerator
+clients need, and what for-profit partners can use. Reference:
+`../../library/research/startup-funding-landscape.md`.
+
 ## Standing priorities
 
 Weight prospecting toward these, because they are where ACBN's gaps are:
