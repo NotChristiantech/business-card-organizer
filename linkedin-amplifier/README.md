@@ -73,6 +73,25 @@ Next.js 14 (App Router), TypeScript, Tailwind, SQLite via `better-sqlite3`, Clau
 - **Change the idea bar** in `MINING_SYSTEM` in `lib/ideas.ts` if too much or too little is getting through.
 - **Change the guardrails** in `lib/guardrails.ts`. These are yours to set — the defaults assume a regulated raise and a consent-sensitive client base.
 
+## Seeding a voice profile and format library
+
+If you already have a voice analysis you trust, skip extraction entirely — a hand-authored or professionally produced spec beats an extracted one. Extraction is the fallback, not the goal.
+
+```bash
+node scripts/seed-voice.mjs [path]      # default: data/ryan-voice.json
+node scripts/seed-formats.mjs [path]    # default: data/ryan-formats.json
+```
+
+`seed-voice` takes `{ name, spec }` and makes the profile active, validating every required field first so a half-empty spec cannot silently become the constraint on all future drafts.
+
+`seed-formats` replaces the built-in library with formats drawn from how you actually write, and **deactivates the built-ins by default**. That is deliberate: the generator picks by weight, and a generic shape that scores well on paper still reads like someone else. Pass `--keep-builtins` to leave them enabled at weight 0.4 instead. Nothing is deleted — re-enabling one is a single `UPDATE formats SET active = 1 WHERE id = '...'`.
+
+Both scripts are idempotent; re-run them after editing the JSON.
+
+### A note on format weights
+
+Weights are a strategic judgement, not a transcription of past reach. A post type can have modest impressions and still deserve the highest weight — reach is partly a function of how the platform chose to distribute a post, whether it was boosted, and whether it tagged well-followed accounts. Weight the format you want more of, not the one that happened to travel.
+
 ## Seeding ideas from a file
 
 ```bash

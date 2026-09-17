@@ -10,4 +10,6 @@ data/*.db-journal
 # Personal seed material stays local
 data/starter-ideas.json
 data/harvested-posts.txt
+data/ryan-voice.json
+data/ryan-formats.json
 data/*.csv

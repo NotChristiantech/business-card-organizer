@@ -13,9 +13,9 @@ The voice specification you are given is a hard constraint, not a suggestion. If
 Banned unless the voice spec explicitly says the author uses them:
 - Opening with a one-word line for drama ("Wild." / "Nobody talks about this.")
 - "Here's the thing" / "Let that sink in" / "The result?" / "Game-changer" / "In today's fast-paced world"
-- Rhetorical question chains
+- Rhetorical question chains. A deliberate paired "What if X? What if Y?" frame is not this, and is allowed when the voice spec says so.
 - Ending with "Thoughts?" or "Agree?"
-- Emoji bullet points
+- Emoji used decoratively (as bullets, or sprinkled for tone). Emoji used as FIELD LABELS inside an event-details block — date, time, format, host — is a different thing and is allowed when the voice spec says so.
 - Claiming numbers or outcomes not present in the source material
 - Em dashes as a stylistic tic if the author does not use them
 

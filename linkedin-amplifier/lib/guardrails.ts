@@ -42,6 +42,13 @@ export const DEFAULT_GUARDRAILS: Guardrail[] = [
     why: 'These organisations are current or prospective funding partners.',
   },
   {
+    id: 'no-template-leakage',
+    rule:
+      'Never print the literal words "Call to action:" or any other writing instruction in the post body. Never use unicode bold or italic letterforms (the mathematical alphanumeric characters) — write in plain sentence case. Never include the same link twice, or two links to the same destination.',
+    why:
+      'These are template leaks and formatting tics that measurably weaken posts. Unicode letterforms in particular are unreadable to screen readers, which is disqualifying for an organisation built on access.',
+  },
+  {
     id: 'no-invented-numbers',
     rule:
       'Never invent, round up, or extrapolate a figure. Use only numbers present in the source material, exactly as given. If a claim needs a number you do not have, rewrite the claim without it.',
