@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "seed:ideas": "node scripts/seed-ideas.mjs",
     "seed:voice": "node scripts/seed-voice.mjs",
-    "seed:formats": "node scripts/seed-formats.mjs"
+    "seed:formats": "node scripts/seed-formats.mjs",
+    "seed:drafts": "node scripts/seed-drafts.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.32.1",

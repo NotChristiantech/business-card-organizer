@@ -8,6 +8,7 @@ interface QueueItem {
   idea_title: string;
   format_name: string;
   body: string;
+  critique: string | null;
   status: string;
   scheduled_for: string | null;
   posted_at: string | null;
@@ -96,6 +97,14 @@ export default function QueuePage() {
                   )}
                 </div>
                 <PostPreview body={item.body} />
+                {item.critique && (
+                  <p
+                    className="mt-3 rounded-md p-2 text-xs"
+                    style={{ background: 'var(--panel-2)', color: 'var(--warn)' }}
+                  >
+                    <strong>Before you post:</strong> {item.critique}
+                  </p>
+                )}
                 <div className="mt-4 flex flex-wrap gap-2">
                   <CopyButton text={item.body} label="Copy for LinkedIn" />
                   <a className="btn btn-sm" href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer">
