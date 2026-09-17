@@ -10,7 +10,22 @@ Rules:
 - Quote or closely paraphrase actual patterns from the samples.
 - Note quirks: punctuation habits, paragraph length, whether they use line breaks as beats, how they open, how they close, whether they ask questions.
 - "avoids" and "neverDo" matter as much as the positive traits. If the author never uses emoji, never says "game-changer", never ends with "Thoughts?" — record that.
-- If the samples are too few or too inconsistent to support a claim, say so in that field rather than inventing one.`;
+- If the samples are too few or too inconsistent to support a claim, say so in that field rather than inventing one.
+
+CRITICAL — the generator bans a list of constructions by default, and only the spec you produce can unban them. So you must explicitly audit the samples for each of the following and, wherever the author genuinely uses one, record it in the "vocabulary.favors" list in plain words (e.g. "uses 'let that sink in' as a beat after a damning fact"). If you leave it out, a real part of this author's voice gets stripped from every future draft:
+
+  - "Let that sink in", "Here's the thing", "The result?", "Game-changer"
+  - Chains of rhetorical questions stacked back to back
+  - Opening with a one-word or very short line for drama
+  - Ending on "Thoughts?", "Agree?", or a direct question to the reader
+  - Emoji, including as bullets or as beats
+  - Em dashes as a habitual connector
+  - Bold or capitalised inline emphasis
+  - Direct address by name to a person, institution, or authority
+  - Sign-offs ("Cheers", "Looking forward to your thoughts", a name and title)
+  - Hashtag blocks, and where they sit
+
+Record the absence of these only where it is conspicuous. Presence matters far more than absence here.`;
 
 export async function extractVoiceSpec(samplePosts: string): Promise<VoiceSpec> {
   const prompt = `Here are writing samples from one author. Each sample is separated by a line of dashes.
@@ -31,7 +46,7 @@ Return a JSON object with exactly these keys:
   "hookPatterns": ["how their opening lines work, as reusable patterns, with a real example each"],
   "structuralHabits": ["how they organise a post: length, line breaks, lists, where the payoff lands"],
   "pointOfView": "who they address, how much first person, their stance toward the reader",
-  "formatting": "observed formatting habits: line break frequency, emoji use or absence, hashtags, capitalisation",
+  "formatting": "observed formatting habits: line break frequency, emoji use or absence, hashtags, capitalisation, inline emphasis, sign-offs",
   "neverDo": ["things that would immediately read as not-this-person"]
 }`;
 
