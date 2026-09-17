@@ -13,6 +13,7 @@ export default function VoicePage() {
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [saved, setSaved] = useState(false);
+  const [importNote, setImportNote] = useState<string | null>(null);
 
   useEffect(() => {
     fetch('/api/voice')
@@ -29,6 +30,31 @@ export default function VoicePage() {
       })
       .catch((e) => setError(String(e)));
   }, []);
+
+  async function importCsv(file: File) {
+    setBusy('Reading your LinkedIn export…');
+    setError(null);
+    setImportNote(null);
+    try {
+      const csv = await file.text();
+      const res = await fetch('/api/voice/import', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ csv }),
+      });
+      const data = await res.json();
+      if (data.error) throw new Error(data.error);
+      setSamples(data.sample_block);
+      setImportNote(
+        `Loaded ${Math.min(data.count, 25)} of ${data.count} posts (longest first). ` +
+          `Skipped ${data.skipped.reshares} reshare(s) with no commentary and ${data.skipped.tooShort} very short post(s).`,
+      );
+    } catch (e) {
+      setError((e as Error).message);
+    } finally {
+      setBusy(null);
+    }
+  }
 
   async function extract() {
     setBusy('Reading your samples…');
@@ -97,6 +123,28 @@ export default function VoicePage() {
           <label className="label">Profile name</label>
           <input className="input" value={name} onChange={(e) => setName(e.target.value)} />
         </div>
+        <div className="rounded-md p-3" style={{ background: 'var(--panel-2)' }}>
+          <label className="label">Import from your LinkedIn data export</label>
+          <input
+            className="input"
+            type="file"
+            accept=".csv,text/csv"
+            onChange={(e) => {
+              const f = e.target.files?.[0];
+              if (f) importCsv(f);
+            }}
+          />
+          <p className="mt-2 text-xs muted">
+            LinkedIn &rarr; Settings &rarr; Data Privacy &rarr; Get a copy of your data &rarr; tick{' '}
+            <strong>Posts</strong>. The archive arrives by email; drop <code>Shares.csv</code> here.
+            Reshares without your own commentary and very short posts are filtered out automatically.
+            The file is parsed in your browser session and never stored.
+          </p>
+          {importNote && (
+            <p className="mt-2 text-xs" style={{ color: 'var(--good)' }}>{importNote}</p>
+          )}
+        </div>
+
         <div>
           <label className="label">Writing samples ({samples.length.toLocaleString()} chars)</label>
           <textarea

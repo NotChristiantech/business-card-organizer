@@ -23,7 +23,11 @@ Reject:
 - Pure summary with no point of view
 - Topics with no specific claim or story attached
 
-Score 1-10 on: does this give a reader something they did not have before, and does the author have standing to say it?`;
+Score 1-10 on: does this give a reader something they did not have before, and does the author have standing to say it?
+
+Two hard rules on what you record, because ideas become published posts:
+- Strip every identifying detail about clients, participants and counterparties. No names, no company names, no detail specific enough to identify someone.
+- Never record the financial terms of an investment offering (rates, yields, returns, term lengths, minimums) as part of an idea, even if the source states them. An idea may be about explaining how an instrument works; it may never be about what it pays.`;
 
 /** Mines a meeting transcript for moments the author already explained well. */
 export async function mineTranscript(opts: {

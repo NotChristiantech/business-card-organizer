@@ -3,6 +3,7 @@ import { askForJson } from './claude';
 import { getDb, nowIso } from './db';
 import { voiceSpecToPrompt } from './voice';
 import { withCritique } from './formatting';
+import { DEFAULT_GUARDRAILS, flagSecuritiesRisk, guardrailsToPrompt } from './guardrails';
 import type { Draft, DraftStatus, DraftWithContext, Format, Idea, PostStats, VoiceSpec } from './types';
 
 const WRITE_SYSTEM = `You write LinkedIn posts that do not read like LinkedIn posts.
@@ -50,7 +51,14 @@ export async function generateDrafts(opts: {
     )
     .join('\n\n---\n\n');
 
-  const prompt = `=== VOICE SPECIFICATION (hard constraint) ===
+  const prompt = `=== NON-NEGOTIABLE CONTENT RULES ===
+These override everything else, including the voice specification and the
+format skeleton. A draft that breaks one of these is useless no matter how
+well written it is.
+
+${guardrailsToPrompt(DEFAULT_GUARDRAILS)}
+
+=== VOICE SPECIFICATION (hard constraint) ===
 ${voiceBlock}
 
 === THE IDEA ===
@@ -106,7 +114,11 @@ export function insertDrafts(
       const id = randomUUID();
       // The self-critique is appended so it survives with the draft; the UI
       // splits it back out rather than storing it in a column nobody queries.
-      const body = withCritique(v.body, v.self_critique || null);
+      const risk = flagSecuritiesRisk(v.body);
+      const note = [risk ? `COMPLIANCE FLAG: ${risk}` : null, v.self_critique || null]
+        .filter(Boolean)
+        .join(' ');
+      const body = withCritique(v.body, note || null);
       stmt.run(id, meta.idea_id, v.format_id, meta.voice_profile_id, v.hook, body, ts, ts);
       created.push({
         id,

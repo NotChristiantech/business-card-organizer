@@ -6,3 +6,7 @@ out
 data/*.db
 data/*.db-journal
 *.tsbuildinfo
+
+# Personal seed material stays local
+data/starter-ideas.json
+data/*.csv
