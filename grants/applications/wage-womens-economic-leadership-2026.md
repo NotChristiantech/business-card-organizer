@@ -21,6 +21,20 @@ needs_verification: [assessment_criteria, reach_level, co_applicant_rules]
 
 # WAGE — Women's Economic and Leadership Opportunities Fund 2026
 
+> ## ⚠ Deadline passed — status unknown
+>
+> The deadline was **15 September 2026, noon Pacific**. It is now **17
+> September**. Whether this was submitted is unrecorded.
+>
+> - **If submitted:** set `stage: under_review`, record the submission date and
+>   amount, and note the decision window.
+> - **If missed:** set `stage: withdrawn` and record why. A missed deadline with
+>   a reason is intelligence; a missed deadline left ambiguous is how the
+>   original tracker rotted.
+>
+> Either way, the concept work below is reusable — see
+> `../opportunities/concepts/acbn-newlife.md`.
+
 **Deadline 15 September, noon Pacific — 11 days from 4 September.**
 Up to $625K local / $1M regional / $1.4M pan-Canadian, over up to 60 months.
 
@@ -198,6 +212,26 @@ The question resolves by default:
 - **BWC — collaborator and advisory, with a letter of support.** Genuinely
   valuable, just not as an applicant. Read `../orgs/black-womens-collective.md`
   before contemplating any payment to them.
+
+### Correction: NewLife Project *is* a women's organization
+
+This section previously concluded ACBN had no women's-organization partner. That
+was based on NewLife's record being a stub, and it was wrong.
+
+NewLife Project Inc. is bilingual, Ottawa-based, and its constitutional purpose
+includes *"to empower women by conducting seminars, discussion forums to provide
+tools, resources and information on how to start a business"*, delivered through
+the **NewLife Women's World Forum**. Founder Brenda E. Williams is a **100
+Accomplished Black Canadian Women** honoree.
+
+**The women's-organization credential was already on the team.** See
+`../orgs/new-life-project.md`. Any future version of this application should lead
+with NewLife on that criterion.
+
+NewLife's bilingualism also matters for the reach decision below: delivery in
+both official languages is one of the two hard requirements for the
+**pan-Canadian $1.4M band**, which was ruled out on the assumption it was not
+achievable.
 
 ### The women's-organization gap: partly closed
 
