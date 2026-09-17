@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0f14;
+  --panel: #131a23;
+  --panel-2: #1a232e;
+  --border: #26313f;
+  --text: #e8edf3;
+  --muted: #8fa0b4;
+  --accent: #4a9eff;
+  --accent-dim: #1d4e80;
+  --good: #3fb950;
+  --warn: #d29922;
+  --bad: #f85149;
+}
+
+html, body { background: var(--bg); color: var(--text); }
+body { -webkit-font-smoothing: antialiased; }
+
+@layer components {
+  .panel { @apply rounded-lg border p-5; border-color: var(--border); background: var(--panel); }
+  .btn {
+    @apply inline-flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors
+           disabled:opacity-40 disabled:cursor-not-allowed;
+    background: var(--panel-2); border: 1px solid var(--border); color: var(--text);
+  }
+  .btn:hover:not(:disabled) { border-color: var(--accent-dim); }
+  .btn-primary { background: var(--accent); border-color: var(--accent); color: #04101d; }
+  .btn-primary:hover:not(:disabled) { filter: brightness(1.1); }
+  .btn-sm { @apply px-2 py-1 text-xs; }
+  .input {
+    @apply w-full rounded-md px-3 py-2 text-sm outline-none;
+    background: var(--bg); border: 1px solid var(--border); color: var(--text);
+  }
+  .input:focus { border-color: var(--accent); }
+  .label { @apply mb-1 block text-xs font-medium uppercase tracking-wide; color: var(--muted); }
+  .chip {
+    @apply inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-medium;
+    background: var(--panel-2); border: 1px solid var(--border); color: var(--muted);
+  }
+  .muted { color: var(--muted); }
+}
