@@ -25,7 +25,9 @@ CRITICAL — the generator bans a list of constructions by default, and only the
   - Sign-offs ("Cheers", "Looking forward to your thoughts", a name and title)
   - Hashtag blocks, and where they sit
 
-Record the absence of these only where it is conspicuous. Presence matters far more than absence here.`;
+Record the absence of these only where it is conspicuous. Presence matters far more than absence here.
+
+MIXED REGISTERS — samples often span different modes: personal narrative, opinion/argument, and promotional or informational announcements. These read nothing alike, and averaging them produces a spec that describes nobody. Identify the registers present, then describe the voice the author uses when making a point of their own, since that is what the generator produces. Note the promotional register separately in "structuralHabits" rather than blending it in. If the samples are mostly promotional, say so plainly in "summary" — it means the spec is weak evidence for thought-leadership writing and the author should supply more of the latter.`;
 
 export async function extractVoiceSpec(samplePosts: string): Promise<VoiceSpec> {
   const prompt = `Here are writing samples from one author. Each sample is separated by a line of dashes.
