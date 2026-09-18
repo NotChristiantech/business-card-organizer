@@ -65,6 +65,8 @@ export interface Draft {
   status: DraftStatus;
   scheduled_for: string | null;
   posted_at: string | null;
+  /** What image or video to pair with the post, if any. */
+  media: string | null;
   created_at: string;
   updated_at: string;
 }

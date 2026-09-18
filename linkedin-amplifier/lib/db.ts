@@ -64,6 +64,7 @@ export function getDb(): Database.Database {
       status TEXT NOT NULL DEFAULT 'draft',
       scheduled_for TEXT,
       posted_at TEXT,
+      media TEXT,
       created_at TEXT NOT NULL,
       updated_at TEXT NOT NULL
     );
@@ -92,10 +93,23 @@ export function getDb(): Database.Database {
     );
   `);
 
+  migrate(db);
   seedFormats(db);
 
   _db = db;
   return db;
+}
+
+/**
+ * Additive migrations for databases created before a column existed. Kept
+ * explicit and idempotent rather than pulling in a migration framework for
+ * what is a single-user local file.
+ */
+function migrate(db: Database.Database) {
+  const cols = db.prepare(`PRAGMA table_info(drafts)`).all() as { name: string }[];
+  if (!cols.some((c) => c.name === 'media')) {
+    db.exec(`ALTER TABLE drafts ADD COLUMN media TEXT`);
+  }
 }
 
 /**

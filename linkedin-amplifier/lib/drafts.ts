@@ -130,6 +130,7 @@ export function insertDrafts(
         status: 'draft',
         scheduled_for: null,
         posted_at: null,
+        media: null,
         created_at: ts,
         updated_at: ts,
       });

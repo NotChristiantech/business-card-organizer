@@ -9,6 +9,7 @@ interface QueueItem {
   format_name: string;
   body: string;
   critique: string | null;
+  media: string | null;
   status: string;
   scheduled_for: string | null;
   posted_at: string | null;
@@ -97,6 +98,14 @@ export default function QueuePage() {
                   )}
                 </div>
                 <PostPreview body={item.body} />
+                {item.media && (
+                  <p
+                    className="mt-3 rounded-md p-2 text-xs"
+                    style={{ background: 'var(--panel-2)', color: 'var(--accent)' }}
+                  >
+                    <strong>Image / video:</strong> {item.media}
+                  </p>
+                )}
                 {item.critique && (
                   <p
                     className="mt-3 rounded-md p-2 text-xs"

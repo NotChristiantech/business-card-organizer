@@ -10,7 +10,8 @@
  *
  * File format: an array of
  *   { "title": "...", "format_id": "rk-reflection", "hook": "...",
- *     "body": "...", "note": "optional caveat shown in the UI" }
+ *     "body": "...", "note": "optional caveat shown in the UI",
+ *     "media": "optional note on what image or video to pair with it" }
  *
  * Re-running skips any draft whose hook already exists, so you can append to
  * the file and seed again.
@@ -58,8 +59,8 @@ const insertIdea = db.prepare(`
   VALUES (?, 'manual', NULL, 'Seeded batch', ?, ?, NULL, NULL, 8, 'Written directly, not generated.', 'developed', ?)
 `);
 const insertDraft = db.prepare(`
-  INSERT INTO drafts (id, idea_id, format_id, voice_profile_id, hook, body, status, created_at, updated_at)
-  VALUES (?, ?, ?, ?, ?, ?, 'approved', ?, ?)
+  INSERT INTO drafts (id, idea_id, format_id, voice_profile_id, hook, body, media, status, created_at, updated_at)
+  VALUES (?, ?, ?, ?, ?, ?, ?, 'approved', ?, ?)
 `);
 
 let added = 0;
@@ -89,7 +90,10 @@ const tx = db.transaction(() => {
     // The note rides along as the critique so it shows in the UI next to the
     // draft, the same way a generated draft's self-critique does.
     const body = p.note ? `${p.body}\n\n<!--critique:${p.note}-->` : p.body;
-    insertDraft.run(randomUUID(), ideaId, p.format_id, activeVoice?.id ?? null, p.hook, body, now, now);
+    insertDraft.run(
+      randomUUID(), ideaId, p.format_id, activeVoice?.id ?? null,
+      p.hook, body, p.media ?? null, now, now,
+    );
     added++;
   }
 });
